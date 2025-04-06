@@ -1,0 +1,38 @@
+{
+  "userAdmonitions": {
+    "quote": {
+      "type": "quote",
+      "color": "61, 169, 113",
+      "icon": {
+        "name": "quote-left",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "引用",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": true,
+  "version": "10.3.2",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.e5dd46"
+}

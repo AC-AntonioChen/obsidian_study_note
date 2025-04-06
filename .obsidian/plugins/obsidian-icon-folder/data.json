@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "📆",
+      "RiTodoLine",
+      "🧑‍🏫",
+      "LiBike",
+      "🖊"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "01-工作区": "🖊",
+  "09-其他": "📪",
+  "01-工作区/算法思想与数据结构": "BoBxMath",
+  "01-工作区/Java面试": "💰",
+  "03-think": "🤔",
+  "02-文件区": "📪",
+  "04-旅游": "LiBike",
+  "09-其他/教师资格证": "🧑‍🏫",
+  "00-代办": "📆"
+}
