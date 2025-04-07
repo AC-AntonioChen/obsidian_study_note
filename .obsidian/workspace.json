@@ -264,6 +264,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "digitalgarden:Digital Garden Publication Center": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
