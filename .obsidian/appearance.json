@@ -4,5 +4,6 @@
   "theme": "moonstone",
   "baseFontSize": 19,
   "showRibbon": false,
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "textFontFamily": "Microsoft New Tai Lue"
 }
