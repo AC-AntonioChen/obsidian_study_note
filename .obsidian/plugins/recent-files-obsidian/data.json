@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Java 类加载机制",
+      "path": "01-学习/01_Java笔记/01_JVM/Java 类加载机制.md"
+    },
+    {
       "basename": "面试题草稿",
       "path": "00-代办/面试题草稿.md"
     },
     {
       "basename": "知识星球",
-      "path": "01-工作区/Java面试/面经/知识星球.md"
+      "path": "01-学习/Java面试/面经/知识星球.md"
     },
     {
       "basename": "未命名 1",
-      "path": "01-工作区/Java面试/面经/未命名 1.md"
+      "path": "01-学习/Java面试/面经/未命名 1.md"
     },
     {
       "basename": "微服务各层常用技术组件",
-      "path": "01-工作区/知识图谱/微服务各层常用技术组件.md"
+      "path": "01-学习/01_Java笔记/知识图谱/微服务各层常用技术组件.md"
     },
     {
       "basename": "Java 8系列之重新认识HashMap",
@@ -26,7 +30,7 @@
     },
     {
       "basename": "wb_2025-03-30 23.50.22.excalidraw",
-      "path": "01-工作区/知识图谱/wb_2025-03-30 23.50.22.excalidraw.md"
+      "path": "01-学习/01_Java笔记/知识图谱/wb_2025-03-30 23.50.22.excalidraw.md"
     },
     {
       "basename": "未命名 1",
@@ -38,23 +42,23 @@
     },
     {
       "basename": "知识点",
-      "path": "01-工作区/Java面试/知识点.md"
+      "path": "01-学习/Java面试/知识点.md"
     },
     {
       "basename": "面试题",
-      "path": "01-工作区/Java面试/面试题记录/面试题.md"
+      "path": "01-学习/Java面试/面试题记录/面试题.md"
     },
     {
       "basename": "wb_Java内存区域",
-      "path": "01-工作区/Java面试/JavaGuide/JVM专项/wb_Java内存区域.md"
+      "path": "01-学习/Java面试/JavaGuide/JVM专项/wb_Java内存区域.md"
     },
     {
       "basename": "Java内存区域详解",
-      "path": "01-工作区/Java面试/JavaGuide/JVM专项/Java内存区域详解.md"
+      "path": "01-学习/Java面试/JavaGuide/JVM专项/Java内存区域详解.md"
     },
     {
       "basename": "基础知识",
-      "path": "01-工作区/Java面试/JavaGuide/基础知识.md"
+      "path": "01-学习/Java面试/JavaGuide/基础知识.md"
     },
     {
       "basename": "笔记",
@@ -62,11 +66,11 @@
     },
     {
       "basename": "Deepseek r1（openrouter）使用教程",
-      "path": "01-工作区/Deepseek r1（openrouter）使用教程.md"
+      "path": "01-学习/Deepseek r1（openrouter）使用教程.md"
     },
     {
       "basename": "百度智能云Deepseek网页体验教程",
-      "path": "01-工作区/百度智能云Deepseek网页体验教程.md"
+      "path": "01-学习/百度智能云Deepseek网页体验教程.md"
     },
     {
       "basename": "()",
@@ -166,7 +170,7 @@
     },
     {
       "basename": "JVM垃圾回收",
-      "path": "01-工作区/Java面试/JavaGuide/JVM专项/JVM垃圾回收.md"
+      "path": "01-学习/Java面试/JavaGuide/JVM专项/JVM垃圾回收.md"
     },
     {
       "basename": "jvm-garbage-collection",
@@ -182,11 +186,11 @@
     },
     {
       "basename": "随笔",
-      "path": "01-工作区/Java面试/JavaGuide/随笔.md"
+      "path": "01-学习/Java面试/JavaGuide/随笔.md"
     },
     {
       "basename": "Drawing 2024-02-21 21.39.30.excalidraw",
-      "path": "01-工作区/Java面试/JavaGuide/Drawing 2024-02-21 21.39.30.excalidraw.md"
+      "path": "01-学习/Java面试/JavaGuide/Drawing 2024-02-21 21.39.30.excalidraw.md"
     },
     {
       "basename": "Pasted Image 20240224141719_025",
