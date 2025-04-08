@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "元数据",
+      "path": "01-学习/01_Java笔记/01_JVM/元数据.md"
+    },
+    {
+      "basename": "Java 类加载机制",
+      "path": "01-学习/01_Java笔记/01_JVM/Java 类加载机制.md"
+    },
+    {
       "basename": "面试题草稿",
       "path": "00-代办/面试题草稿.md"
     },
     {
       "basename": "字节码增强技术",
       "path": "01-学习/01_Java笔记/01_JVM/字节码增强技术.md"
-    },
-    {
-      "basename": "Java 类加载机制",
-      "path": "01-学习/01_Java笔记/01_JVM/Java 类加载机制.md"
     },
     {
       "basename": "知识星球",
@@ -195,10 +199,6 @@
     {
       "basename": "Drawing 2024-02-21 21.39.30.excalidraw",
       "path": "01-学习/Java面试/JavaGuide/Drawing 2024-02-21 21.39.30.excalidraw.md"
-    },
-    {
-      "basename": "Pasted Image 20240224141719_025",
-      "path": "09-其他/附件存储/Pasted Image 20240224141719_025.png"
     }
   ],
   "omittedPaths": [],
