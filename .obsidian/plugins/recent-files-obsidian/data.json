@@ -5,16 +5,16 @@
       "path": "00-代办/面试题草稿.md"
     },
     {
+      "basename": "字节码增强技术",
+      "path": "01-学习/01_Java笔记/01_JVM/字节码增强技术.md"
+    },
+    {
       "basename": "元数据",
       "path": "01-学习/01_Java笔记/01_JVM/元数据.md"
     },
     {
       "basename": "Java 类加载机制",
       "path": "01-学习/01_Java笔记/01_JVM/Java 类加载机制.md"
-    },
-    {
-      "basename": "字节码增强技术",
-      "path": "01-学习/01_Java笔记/01_JVM/字节码增强技术.md"
     },
     {
       "basename": "知识星球",
