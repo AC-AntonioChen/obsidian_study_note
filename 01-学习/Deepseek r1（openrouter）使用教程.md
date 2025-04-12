@@ -1,4 +1,3 @@
-## 1、扫盲科普
 ### deepseek是什么，r1是什么
 ### 官方客户端的deepseek r1和openrouter 的deepseek r1 有什么区别
 

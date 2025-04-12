@@ -5,6 +5,10 @@
       "path": "00-代办/面试题草稿.md"
     },
     {
+      "basename": "Deepseek r1（openrouter）使用教程",
+      "path": "01-学习/Deepseek r1（openrouter）使用教程.md"
+    },
+    {
       "basename": "元数据",
       "path": "01-学习/01_Java笔记/01_JVM/元数据.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "笔记",
       "path": "03-think/积极心理学/笔记.md"
-    },
-    {
-      "basename": "Deepseek r1（openrouter）使用教程",
-      "path": "01-学习/Deepseek r1（openrouter）使用教程.md"
     },
     {
       "basename": "百度智能云Deepseek网页体验教程",
