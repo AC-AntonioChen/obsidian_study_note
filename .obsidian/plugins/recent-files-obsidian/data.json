@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java基础常见面试题自测",
+      "path": "00-代办/技术面试题/Java基础常见面试题自测.md"
+    },
+    {
       "basename": "面试题草稿",
       "path": "00-代办/面试题草稿.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "随笔",
       "path": "01-学习/Java面试/JavaGuide/随笔.md"
-    },
-    {
-      "basename": "Drawing 2024-02-21 21.39.30.excalidraw",
-      "path": "01-学习/Java面试/JavaGuide/Drawing 2024-02-21 21.39.30.excalidraw.md"
     }
   ],
   "omittedPaths": [],
