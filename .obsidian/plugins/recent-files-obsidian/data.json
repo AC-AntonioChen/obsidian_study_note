@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Java集合",
-      "path": "00-代办/技术面试题模板/Java集合.md"
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题250418/MySQL.md"
     },
     {
-      "basename": "JUC",
-      "path": "00-代办/技术面试题模板/JUC.md"
+      "basename": "Redis",
+      "path": "00-代办/技术面试题250418/Redis.md"
+    },
+    {
+      "basename": "Spring&SpringBoot",
+      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
+    },
+    {
+      "basename": "Java并发",
+      "path": "00-代办/技术面试题250418/Java并发.md"
+    },
+    {
+      "basename": "Java基础",
+      "path": "00-代办/技术面试题250418/Java基础.md"
+    },
+    {
+      "basename": "计网",
+      "path": "00-代办/技术面试题250418/计网.md"
+    },
+    {
+      "basename": "面试题草稿",
+      "path": "00-代办/面试题草稿.md"
+    },
+    {
+      "basename": "Java并发",
+      "path": "00-代办/技术面试题模板/Java并发.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "00-代办/技术面试题模板/JVM.md"
+    },
+    {
+      "basename": "计网",
+      "path": "00-代办/技术面试题模板/计网.md"
+    },
+    {
+      "basename": "Java集合",
+      "path": "00-代办/技术面试题模板/Java集合.md"
     },
     {
       "basename": "Redis",
@@ -23,10 +59,6 @@
     {
       "basename": "Spring&SpringBoot",
       "path": "00-代办/技术面试题模板/Spring&SpringBoot.md"
-    },
-    {
-      "basename": "面试题草稿",
-      "path": "00-代办/面试题草稿.md"
     },
     {
       "basename": "Deepseek r1（openrouter）使用教程",
@@ -167,38 +199,6 @@
     {
       "basename": "文化素养",
       "path": "09-其他/教师资格证/301/文化素养.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "09-其他/教师资格证/301/未命名.md"
-    },
-    {
-      "basename": "教育法律法规",
-      "path": "09-其他/教师资格证/301/教育法律法规.md"
-    },
-    {
-      "basename": "wb_2024-08-22 23.59.33.excalidraw",
-      "path": "04-旅游/郴州/wb_2024-08-22 23.59.33.excalidraw.md"
-    },
-    {
-      "basename": "240623_摆脱低效的学习",
-      "path": "03-think/写作/240623_摆脱低效的学习.md"
-    },
-    {
-      "basename": "表达基础课程",
-      "path": "03-think/随笔/表达基础课程.md"
-    },
-    {
-      "basename": "付费咨询2 0619",
-      "path": "03-think/随笔/付费咨询2 0619.md"
-    },
-    {
-      "basename": "付费咨询",
-      "path": "03-think/随笔/付费咨询.md"
-    },
-    {
-      "basename": "目标、计划与行动",
-      "path": "03-think/随笔/目标、计划与行动.md"
     }
   ],
   "omittedPaths": [],
