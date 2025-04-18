@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "MySQL",
-      "path": "00-代办/技术面试题模板/MySQL.md"
+      "basename": "Java集合",
+      "path": "00-代办/技术面试题模板/Java集合.md"
+    },
+    {
+      "basename": "JUC",
+      "path": "00-代办/技术面试题模板/JUC.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "00-代办/技术面试题模板/Redis.md"
     },
     {
       "basename": "Java基础",
       "path": "00-代办/技术面试题模板/Java基础.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题模板/MySQL.md"
+    },
+    {
+      "basename": "Spring&SpringBoot",
+      "path": "00-代办/技术面试题模板/Spring&SpringBoot.md"
     },
     {
       "basename": "面试题草稿",
@@ -183,22 +199,6 @@
     {
       "basename": "目标、计划与行动",
       "path": "03-think/随笔/目标、计划与行动.md"
-    },
-    {
-      "basename": "JVM垃圾回收",
-      "path": "01-学习/Java面试/JavaGuide/JVM专项/JVM垃圾回收.md"
-    },
-    {
-      "basename": "jvm-garbage-collection",
-      "path": "02-文件区/待打印/jvm-garbage-collection.md"
-    },
-    {
-      "basename": "wb_2024-06-01 23.35.04.excalidraw",
-      "path": "02-文件区/wb_2024-06-01 23.35.04.excalidraw.md"
-    },
-    {
-      "basename": "2024-06-02",
-      "path": "2024-06-02.md"
     }
   ],
   "omittedPaths": [],
