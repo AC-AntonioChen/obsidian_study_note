@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-代办/技术面试题/Java基础常见面试题自测.md",
+                "file": "00-代办/技术面试题模板/Java基础常见面试题自测.md",
                 "mode": "source",
                 "source": false
               },
@@ -290,11 +290,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "47d24d806227c0c1",
+  "active": "de1f1dceae6942eb",
   "lastOpenFiles": [
-    "00-代办/技术面试题",
+    "00-代办/技术面试题模板",
     "00-代办/面试题草稿.md",
-    "00-代办/技术面试题/Java基础常见面试题自测.md",
+    "00-代办/技术面试题模板/Java基础常见面试题自测.md",
     "01-学习/Deepseek r1（openrouter）使用教程.md",
     "01-学习/01_Java笔记/01_JVM/元数据.md",
     "01-学习/01_Java笔记/01_JVM/字节码增强技术.md",
