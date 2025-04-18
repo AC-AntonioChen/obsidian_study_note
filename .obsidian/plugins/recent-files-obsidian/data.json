@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Java基础常见面试题自测",
-      "path": "00-代办/技术面试题模板/Java基础常见面试题自测.md"
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题模板/MySQL.md"
+    },
+    {
+      "basename": "Java基础",
+      "path": "00-代办/技术面试题模板/Java基础.md"
     },
     {
       "basename": "面试题草稿",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-06-02",
       "path": "2024-06-02.md"
-    },
-    {
-      "basename": "随笔",
-      "path": "01-学习/Java面试/JavaGuide/随笔.md"
     }
   ],
   "omittedPaths": [],
