@@ -1,12 +1,13 @@
 ## MySQL 基础架构
 ### 说说 MySQL 的架构？
+Mysql 架构上由一个client，
 ### 一条 SQL语句在MySQL中的执行过程
 ## MySQL存储引擎
 ### MySQL 提供了哪些存储引擎？
 ### MySQL 存储引擎架构了解吗?
 ### MylSAM 和 InnoDB 的区别
 ## MySQL 事务
-### 何谓事务？
+### 何谓事务
 ### 何谓数据库事务？
 ### ACID 特性指的是什么?
 ### 并发事务带来了哪些问题？
