@@ -24,7 +24,9 @@ server层组件：
 ## 2 MySQL存储引擎
 ### 2.1 MySQL 提供了哪些存储引擎？
 提供了MySIAM和InnoDB 存储引擎。
-InnoDB自从mysql5.5以后就是mysql的默认存储引擎，
+InnoDB自从mysql5.5以后就是mysql的默认存储引擎，支持事务，能充分利用多核CPU，基于B+ Tree索引定位数据。并发读写性能远超MySIAM。InnoDB通过Undo log保持MVCC，通过redo log记录数据库的物理操作。
+MySIAM是基于表文件的，不支持事务，实际业务中基本不会使用
+
 ### 2.2 MySQL 存储引擎架构了解吗?
 
 ### 2.3 MylSAM 和 InnoDB 的区别
