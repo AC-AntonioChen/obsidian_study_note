@@ -5,28 +5,32 @@
       "path": "00-代办/技术面试题250418/MySQL.md"
     },
     {
-      "basename": "Java并发",
-      "path": "00-代办/技术面试题250418/Java并发.md"
-    },
-    {
       "basename": "Java基础",
       "path": "00-代办/技术面试题250418/Java基础.md"
     },
     {
-      "basename": "Java集合",
-      "path": "00-代办/技术面试题250418/Java集合.md"
+      "basename": "Spring&SpringBoot",
+      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
     },
     {
-      "basename": "计网",
-      "path": "00-代办/技术面试题250418/计网.md"
+      "basename": "JVM",
+      "path": "00-代办/技术面试题250418/JVM.md"
     },
     {
       "basename": "Redis",
       "path": "00-代办/技术面试题250418/Redis.md"
     },
     {
-      "basename": "Spring&SpringBoot",
-      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
+      "basename": "计网",
+      "path": "00-代办/技术面试题250418/计网.md"
+    },
+    {
+      "basename": "Java并发",
+      "path": "00-代办/技术面试题250418/Java并发.md"
+    },
+    {
+      "basename": "Java集合",
+      "path": "00-代办/技术面试题250418/Java集合.md"
     },
     {
       "basename": "面试题草稿",
@@ -195,10 +199,6 @@
     {
       "basename": "基本能力",
       "path": "09-其他/教师资格证/301/基本能力.md"
-    },
-    {
-      "basename": "错题笔记",
-      "path": "09-其他/教师资格证/301/错题笔记.md"
     }
   ],
   "omittedPaths": [],
