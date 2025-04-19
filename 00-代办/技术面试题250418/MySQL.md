@@ -7,42 +7,10 @@ server层组件：
 （3）分析器
 （4）优化器
 （5）执行器
+
 存储引擎层
-```plantuml
-@startuml
-actor Client
 
-participant "Connector\n(Connection Handler)" as Connector
-participant "Query Cache\n(Optional, MySQL < 8.0)" as QueryCache
-participant Parser
-participant "InnoDB Storage Engine" as InnoDB
 
-Client -> Connector: Establish connection
-Connector -> Client: Authenticate and grant permissions
-
-note over Client, Connector
-(Connection established and maintained)
-end note
-
-Client -> Connector: Send SQL query
-Connector -> QueryCache: Check for cached result (MySQL < 8.0 only)
-
-alt MySQL < 8.0 and Query Cache Hit
-    QueryCache -> Client: Return cached result
-else MySQL >= 8.0 or Query Cache Miss
-    Connector -> Parser: Pass SQL query for parsing
-end
-
-Parser -> Parser: Parse SQL syntax and validate
-Parser -> InnoDB: Generate execution plan and pass to storage engine
-InnoDB -> InnoDB: Execute query and fetch results
-InnoDB -> Parser: Return results
-Parser -> Connector: Pass results to connector
-Connector -> Client: Return query results to client
-
-@enduml
-
-```
 ### 一条 SQL语句在MySQL中的执行过程
 ## MySQL存储引擎
 ### MySQL 提供了哪些存储引擎？
