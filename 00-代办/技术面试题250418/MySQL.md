@@ -1,6 +1,6 @@
 ## MySQL 基础架构
 ### 说说 MySQL 的架构？
-Mysql 架构上由一个client，连接器，查询缓存，
+Mysql 架构上由client，连接器，查询缓存，分析器，优化器，执行器，存储引擎构成。
 ### 一条 SQL语句在MySQL中的执行过程
 ## MySQL存储引擎
 ### MySQL 提供了哪些存储引擎？
