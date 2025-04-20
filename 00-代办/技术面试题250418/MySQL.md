@@ -23,7 +23,13 @@ server层组件：
 
 ## 2 MySQL存储引擎
 ### 2.1 MySQL 提供了哪些存储引擎？
-提供了InnoDB、MyISAM、Archive、
+提供了InnoDB、MyISAM、Archive、Memory、CSV存储引擎
+其中业务最常用的是InnoDB，因为InnoDB支持事务，支持MVCC（多版本并发控制），而且在并发读写时性能优异，符合绝大部分微服务的使用场景，InnoDB通过undo log保证MVCC，通过redo log记录物理操作日志，与执行器的binlog通过2PC协调保障事务一致性。
+有些历史遗留项目会用MyISAM，MyISAM不支持事务，对多核cpu的利用率低，尽管一些场景下读写比InnoDB快，但因其缺点过于。
+Archive是归档型数据库，现在被Amazon S3取代
+Memory是内存型数据库，现在被Redis取代
+CSV是直接存储为表格格式，现在被专业的数据管道软件取代
+
 ### 2.2 MySQL 存储引擎架构了解吗?
 
 ### 2.3 MylSAM 和 InnoDB 的区别
