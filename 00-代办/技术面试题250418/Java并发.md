@@ -57,7 +57,8 @@ new、runnable、blocked‌、waiting、timed_waiting、terminated
 ### 如何实现乐观锁？ ⭐⭐⭐⭐
 乐观锁一般有以下两种实现方式
 （1）数据库场景的版本号机制实现：在数据库的表中添加version字段，每次读取数据时保存当前版本号x，在提交更新时校验版本号(在where条件中加上version=x)，若影响行数为0则说明冲突发生，需要重试
-（2）基于CAS原子操作
+（2）基于CAS原子操作实现
+使用硬件指令（如cpu的cmpxchg）
 
 ### CAS 了解么？原理？ ⭐⭐⭐⭐⭐
 ### 乐观锁存在哪些问题？ ⭐⭐⭐
