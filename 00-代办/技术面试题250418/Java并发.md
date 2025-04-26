@@ -61,7 +61,8 @@ new、runnable、blocked‌、waiting、timed_waiting、terminated
 cas也就是比较并交换，在硬件层面使用硬件指令（如cpu的cmpxchg），在java代码中，则是用封装了cas功能的atomic类与dowhile循环实现不断重试cas直到成功
 
 ### CAS 了解么？原理？ ⭐⭐⭐⭐⭐
-cas是compare and swap 比较并交换，是基于CPU提供的一种原子操作，cmpxchg指令，作用是比较目标地址的值与想要设置的值是否相同，如果不相同则设置，并返回设置后的值，
+cas是compare and swap 比较并交换，是基于CPU提供的一种原子操作，cmpxchg指令，指令有三个操作数，分别是内存位置V，预期原值A，新值B。当内存位置的值与预期原值一致时，将V更新为新值B，否则则放弃操作。
+在java中，atomic类里通过unsafe封装了cas，我们常用的atomicInteger().increa
 ### 乐观锁存在哪些问题？ ⭐⭐⭐
 ### 什么是 ABA 问题？ABA 问题怎么解决？ ⭐⭐⭐⭐
 ## 3 JMM
