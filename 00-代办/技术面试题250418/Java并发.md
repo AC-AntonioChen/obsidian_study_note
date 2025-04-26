@@ -62,8 +62,10 @@ cas也就是比较并交换，在硬件层面使用硬件指令（如cpu的cmpxc
 
 ### CAS 了解么？原理？ ⭐⭐⭐⭐⭐
 cas是compare and swap 比较并交换，是基于CPU提供的一种原子操作，cmpxchg指令，指令有三个操作数，分别是内存位置V，预期原值A，新值B。当内存位置的值与预期原值一致时，将V更新为新值B，否则则放弃操作。
-在java中，atomic类里通过unsafe封装了cas，我们常用的atomicInteger().increa
+在java中，atomic类里通过unsafe封装了cas，我们常用的atomicInteger().incrementAndGet()等方法都使用到了cas
 ### 乐观锁存在哪些问题？ ⭐⭐⭐
+（1）存在ABA问题，cas的原理是cpmxchg cpu指令，有三个操作数，内存位置V 预期原值A 
+（2）在高并发场景下或者写密集型场景下，数据冲突会经常出现，这时候乐观锁带来的反复重试的开销会很大
 ### 什么是 ABA 问题？ABA 问题怎么解决？ ⭐⭐⭐⭐
 ## 3 JMM
 ### 并发编程的三个重要特性 ⭐⭐⭐⭐⭐
