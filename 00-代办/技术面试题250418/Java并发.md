@@ -18,7 +18,7 @@
 （5）异步处理：处理非阻塞IO操作，避免等待浪费cpu周期
 ### 说说线程的生命周期和状态? ⭐⭐⭐⭐
 java线程有六种标准状态：
-new、runnable、blocked‌、waiting、timed_wating、terminated
+new、runnable、blocked‌、waiting、timed_waiting、terminated
 （1）new是创建态，当线程被new()创建但还未start()时处于此状态，此时操作系统还没有真正创建线程
 （2）调用start后线程进入runnable就绪运行态，java的runnable状态包括了操作系统的就绪态和运行态，具体的状态取决于OS的线程调度器决定是否分配CPU时间片
 （3）blocked是阻塞态，当线程因竞争`synchronized` 锁失败被阻塞，线程会暂停执行，jvm锁监视器机制将线程挂起，等到线程竞争的锁释放后，jvm会自动唤醒该线程去继续竞争锁。
@@ -36,11 +36,13 @@ new、runnable、blocked‌、waiting、timed_wating、terminated
  
 
 ### 什么是线程死锁?如何避免死锁?如何预防和避免线程死锁? ⭐⭐⭐⭐
-
+线程死锁是指两个线程互相持有对方所需要的锁资源，但谁都不释放自己已有的锁资源的情况。
+避免死锁应该通过良好的设计保障，比如为线程设置超时等待时间，在获取不到另一个锁资源时，主动让出自己锁资源，
 ## 2 乐观锁和悲观锁
 ### 乐观锁和悲观锁的区别 ⭐⭐⭐⭐⭐
 
 ### 如何实现乐观锁？ ⭐⭐⭐⭐
+
 ### CAS 了解么？原理？ ⭐⭐⭐⭐⭐
 ### 乐观锁存在哪些问题？ ⭐⭐⭐
 ### 什么是 ABA 问题？ABA 问题怎么解决？ ⭐⭐⭐⭐
