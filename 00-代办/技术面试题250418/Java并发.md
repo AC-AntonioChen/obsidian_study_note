@@ -23,6 +23,7 @@ new、runnable、blocked‌、waiting、timed_wating、terminated
 （2）调用start后线程进入runnable就绪运行态，java的runnable状态包括了操作系统的就绪态和运行态，具体的状态取决于OS的线程调度器决定是否分配CPU时间片
 （3）blocked是阻塞态，当
 
+
  操作系统一般是五种状态：
  创建态、就绪态、运行态、阻塞态、终止态
  
