@@ -18,10 +18,10 @@
 （5）异步处理：处理非阻塞IO操作，避免等待浪费cpu周期
 ### 说说线程的生命周期和状态? ⭐⭐⭐⭐
 java线程有六种标准状态：
-new、runnable、running、waiting、timed_wating、terminated
-（1）new是创建态，当线程被创建但还未start()时处于此状态，此时操作系统还没有真正创建线程
-（2）
-
+new、runnable、blocked‌、waiting、timed_wating、terminated
+（1）new是创建态，当线程被new()创建但还未start()时处于此状态，此时操作系统还没有真正创建线程
+（2）调用start后线程进入runnable就绪运行态，java的runnable状态包括了操作系统的就绪态和运行态，具体的状态取决于OS的线程调度器决定是否分配CPU时间片
+（3）blocked是阻塞态，当
 
  操作系统一般是五种状态：
  创建态、就绪态、运行态、阻塞态、终止态
