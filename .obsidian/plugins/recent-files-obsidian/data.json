@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Java并发",
-      "path": "00-代办/技术面试题250418/Java并发.md"
-    },
-    {
-      "basename": "面试题草稿",
-      "path": "00-代办/面试题草稿.md"
-    },
-    {
-      "basename": "Java基础",
-      "path": "00-代办/技术面试题250418/Java基础.md"
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题250418/MySQL.md"
     },
     {
       "basename": "Java集合",
@@ -21,8 +13,16 @@
       "path": "00-代办/技术面试题250418/JVM.md"
     },
     {
-      "basename": "MySQL",
-      "path": "00-代办/技术面试题250418/MySQL.md"
+      "basename": "Java并发",
+      "path": "00-代办/技术面试题250418/Java并发.md"
+    },
+    {
+      "basename": "面试题草稿",
+      "path": "00-代办/面试题草稿.md"
+    },
+    {
+      "basename": "Java基础",
+      "path": "00-代办/技术面试题250418/Java基础.md"
     },
     {
       "basename": "Redis",
