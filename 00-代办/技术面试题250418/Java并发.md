@@ -39,6 +39,7 @@ new、runnable、blocked‌、waiting、timed_wating、terminated
 
 ## 2 乐观锁和悲观锁
 ### 乐观锁和悲观锁的区别 ⭐⭐⭐⭐⭐
+
 ### 如何实现乐观锁？ ⭐⭐⭐⭐
 ### CAS 了解么？原理？ ⭐⭐⭐⭐⭐
 ### 乐观锁存在哪些问题？ ⭐⭐⭐
