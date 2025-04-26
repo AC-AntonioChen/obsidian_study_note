@@ -54,7 +54,7 @@ new、runnable、blocked‌、waiting、timed_waiting、terminated
 悲观锁假设冲突总是发生，在操作数据时就会加锁，确保独占访问，比如synchronized、Reentrantlock
 乐观锁适合读多写少，而悲观锁适合读少写多的情况
 ### 如何实现乐观锁？ ⭐⭐⭐⭐
-
+乐观锁可以通过维护数据的版本号实现，也可以通过硬件保障的原子操作CAS（compare and swap）实现
 ### CAS 了解么？原理？ ⭐⭐⭐⭐⭐
 ### 乐观锁存在哪些问题？ ⭐⭐⭐
 ### 什么是 ABA 问题？ABA 问题怎么解决？ ⭐⭐⭐⭐
