@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "android",
+      "path": "android.md"
+    },
+    {
       "basename": "Java并发",
       "path": "00-代办/技术面试题250418/Java并发.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "背诵",
       "path": "09-其他/教师资格证/301/背诵.md"
-    },
-    {
-      "basename": "基本能力",
-      "path": "09-其他/教师资格证/301/基本能力.md"
     }
   ],
   "omittedPaths": [],
