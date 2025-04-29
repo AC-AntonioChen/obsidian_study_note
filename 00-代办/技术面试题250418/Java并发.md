@@ -19,6 +19,8 @@
 ### 说说线程的生命周期和状态? ⭐⭐⭐⭐
 java线程有六种标准状态：
 new、runnable、blocked‌、waiting、timed_waiting、terminated
+![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250429220526.png)
+
 （1）new是创建态，当线程被new()创建但还未start()时处于此状态，此时操作系统还没有真正创建线程
 （2）调用start后线程进入runnable就绪运行态，java的runnable状态包括了操作系统的就绪态和运行态，具体的状态取决于OS的线程调度器决定是否分配CPU时间片
 （3）blocked是阻塞态，当线程因竞争`synchronized` 锁失败被阻塞，线程会暂停执行，jvm锁监视器机制将线程挂起，等到线程竞争的锁释放后，jvm会自动唤醒该线程去继续竞争锁。
