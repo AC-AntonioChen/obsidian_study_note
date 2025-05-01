@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-代办/技术面试题250418/MySQL.md",
+                "file": "00-代办/技术面试题模板/Spring&SpringBoot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL"
+              "title": "Spring&SpringBoot"
             }
           }
         ],
@@ -160,7 +160,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "00-代办/技术面试题250418/MySQL.md",
+            "file": "00-代办/技术面试题模板/Spring&SpringBoot.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -208,6 +208,16 @@
   },
   "active": "d6086ee3e248e504",
   "lastOpenFiles": [
+    "00-代办/技术面试题模板/Redis.md",
+    "00-代办/技术面试题模板/Spring&SpringBoot.md",
+    "00-代办/技术面试题模板/MySQL.md",
+    "00-代办/技术面试题模板/JVM.md",
+    "00-代办/技术面试题模板/Java集合.md",
+    "00-代办/技术面试题模板/Java基础.md",
+    "00-代办/技术面试题模板/Java并发.md",
+    "00-代办/技术面试题模板/计网.md",
+    "00-代办/技术面试题250418/Spring&SpringBoot.md",
+    "00-代办/技术面试题250418/MySQL.md",
     "00-代办/技术面试题250418/JVM.md",
     "00-代办/技术面试题250418/Java集合.md",
     "00-代办/技术面试题250418/Java基础.md",
@@ -215,7 +225,6 @@
     "未命名 2.md",
     "00-代办/技术面试题250418/计网.md",
     "conflict-files-obsidian-git.md",
-    "00-代办/技术面试题模板/计网.md",
     "00-代办/面试题草稿.md",
     "android.md"
   ]

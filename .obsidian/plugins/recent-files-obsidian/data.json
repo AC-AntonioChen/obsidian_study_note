@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Spring&SpringBoot",
+      "path": "00-代办/技术面试题模板/Spring&SpringBoot.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "00-代办/技术面试题模板/Redis.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题模板/MySQL.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "00-代办/技术面试题模板/JVM.md"
+    },
+    {
+      "basename": "Java集合",
+      "path": "00-代办/技术面试题模板/Java集合.md"
+    },
+    {
+      "basename": "Java基础",
+      "path": "00-代办/技术面试题模板/Java基础.md"
+    },
+    {
+      "basename": "Java并发",
+      "path": "00-代办/技术面试题模板/Java并发.md"
+    },
+    {
+      "basename": "计网",
+      "path": "00-代办/技术面试题模板/计网.md"
+    },
+    {
+      "basename": "Spring&SpringBoot",
+      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
+    },
+    {
       "basename": "MySQL",
       "path": "00-代办/技术面试题250418/MySQL.md"
     },
@@ -37,10 +73,6 @@
       "path": "().md"
     },
     {
-      "basename": "Spring&SpringBoot",
-      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
-    },
-    {
       "basename": "Redis",
       "path": "00-代办/技术面试题250418/Redis.md"
     },
@@ -67,34 +99,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "00-代办/技术面试题模板/MySQL.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "00-代办/技术面试题模板/JVM.md"
-    },
-    {
-      "basename": "Java集合",
-      "path": "00-代办/技术面试题模板/Java集合.md"
-    },
-    {
-      "basename": "Java基础",
-      "path": "00-代办/技术面试题模板/Java基础.md"
-    },
-    {
-      "basename": "Java并发",
-      "path": "00-代办/技术面试题模板/Java并发.md"
-    },
-    {
-      "basename": "Spring&SpringBoot",
-      "path": "00-代办/技术面试题模板/Spring&SpringBoot.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "00-代办/技术面试题模板/Redis.md"
     },
     {
       "basename": "Deepseek r1（openrouter）使用教程",
@@ -195,10 +199,6 @@
     {
       "basename": "wb_2024-07-19 00.55.27.excalidraw",
       "path": "04-旅游/清远/wb_2024-07-19 00.55.27.excalidraw.md"
-    },
-    {
-      "basename": "Pasted Image 20240719005852_909",
-      "path": "09-其他/附件存储/Pasted Image 20240719005852_909.jpg"
     }
   ],
   "omittedPaths": [],
