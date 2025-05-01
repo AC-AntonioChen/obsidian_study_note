@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Java并发",
       "path": "00-代办/技术面试题250418/Java并发.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted Image 20240929234111_707",
       "path": "09-其他/附件存储/Pasted Image 20240929234111_707.png"
-    },
-    {
-      "basename": "背诵",
-      "path": "09-其他/教师资格证/301/背诵.md"
     }
   ],
   "omittedPaths": [],
