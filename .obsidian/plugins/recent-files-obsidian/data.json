@@ -1,28 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "Java并发",
       "path": "00-代办/技术面试题250418/Java并发.md"
-    },
-    {
-      "basename": "计网",
-      "path": "00-代办/技术面试题模板/计网.md"
     },
     {
       "basename": "Java基础",
       "path": "00-代办/技术面试题250418/Java基础.md"
     },
     {
-      "basename": "面试题草稿",
-      "path": "00-代办/面试题草稿.md"
+      "basename": "协同写作 - 维基百科，自由的百科全书",
+      "path": "Clippings/协同写作 - 维基百科，自由的百科全书.md"
+    },
+    {
+      "basename": "()",
+      "path": "().md"
+    },
+    {
+      "basename": "Spring&SpringBoot",
+      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "00-代办/技术面试题250418/Redis.md"
     },
     {
       "basename": "android",
       "path": "android.md"
+    },
+    {
+      "basename": "小兴安岭(2)",
+      "path": "小兴安岭(2).md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "未命名 1.md"
+    },
+    {
+      "basename": "面试题草稿",
+      "path": "00-代办/面试题草稿.md"
+    },
+    {
+      "basename": "2024-06-02",
+      "path": "2024-06-02.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
     },
     {
       "basename": "MySQL",
@@ -35,14 +59,6 @@
     {
       "basename": "JVM",
       "path": "00-代办/技术面试题250418/JVM.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "00-代办/技术面试题250418/Redis.md"
-    },
-    {
-      "basename": "Spring&SpringBoot",
-      "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
     },
     {
       "basename": "MySQL",
@@ -109,16 +125,8 @@
       "path": "Clippings/Java 8系列之重新认识HashMap.md"
     },
     {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
       "basename": "wb_2025-03-30 23.50.22.excalidraw",
       "path": "01-学习/01_Java笔记/知识图谱/wb_2025-03-30 23.50.22.excalidraw.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "未命名 1.md"
     },
     {
       "basename": "从 BUG 入手：Java 基础修炼 - LeetBook - 力扣（LeetCode）全球极客挚爱的技术成长平台",
@@ -153,20 +161,12 @@
       "path": "01-学习/百度智能云Deepseek网页体验教程.md"
     },
     {
-      "basename": "()",
-      "path": "().md"
-    },
-    {
       "basename": "未命名",
       "path": "04-旅游/25_01春节/未命名.md"
     },
     {
       "basename": "241026_",
       "path": "03-think/交流/241026_.md"
-    },
-    {
-      "basename": "小兴安岭(2)",
-      "path": "小兴安岭(2).md"
     },
     {
       "basename": "小兴安岭",
@@ -195,10 +195,6 @@
     {
       "basename": "Pasted Image 20240719005852_909",
       "path": "09-其他/附件存储/Pasted Image 20240719005852_909.jpg"
-    },
-    {
-      "basename": "Pasted Image 20240929234111_707",
-      "path": "09-其他/附件存储/Pasted Image 20240929234111_707.png"
     }
   ],
   "omittedPaths": [],
