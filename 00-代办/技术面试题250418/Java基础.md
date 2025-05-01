@@ -1,7 +1,10 @@
 ## 1 数据类型
 
 ### 1.1 Java中有哪8种基本数据类型？它们的默认值和占用的空间大小知道不？说说这8种基本数据类型对应的包装类型。
-java的基本数据类型有int，long,short,boolean,char,byte
+java的基本数据类型有int，long,short,boolean,char,byte,float,double。
+对应包装类型为integer,Long,Short,Boolean,Character,Byte,Float,Double.
+int默认值为0，占用4byte，可以表示负2的三十一次方到正三十一次方-1。
+short默认值为0，占用2byte，可以表示-65535
 ### 1.2 包装类型的常量池了解吗
 
 ### 1.3 为什么要有包装类型
