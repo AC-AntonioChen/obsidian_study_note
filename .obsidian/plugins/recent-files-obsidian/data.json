@@ -9,12 +9,16 @@
       "path": "00-代办/技术面试题模板/Redis.md"
     },
     {
-      "basename": "MySQL",
-      "path": "00-代办/技术面试题模板/MySQL.md"
+      "basename": "面试题草稿",
+      "path": "00-代办/面试题草稿.md"
     },
     {
       "basename": "JVM",
       "path": "00-代办/技术面试题模板/JVM.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题模板/MySQL.md"
     },
     {
       "basename": "Java集合",
@@ -87,10 +91,6 @@
     {
       "basename": "未命名 1",
       "path": "未命名 1.md"
-    },
-    {
-      "basename": "面试题草稿",
-      "path": "00-代办/面试题草稿.md"
     },
     {
       "basename": "2024-06-02",
