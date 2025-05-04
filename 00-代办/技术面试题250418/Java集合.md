@@ -9,4 +9,4 @@
 ### 1.8 ConcurrentHashMap 线程安全的具体实现⽅式/底层具体实现
 ### 1.9 Queue 与 Deque的区别
 ### 1.10 ArrayDeque 和 LinkedList的区别
-#### 1.10.1 PriorityQueue有什么特点
+### 1.11 PriorityQueue有什么特点
