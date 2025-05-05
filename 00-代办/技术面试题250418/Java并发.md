@@ -190,6 +190,7 @@ synchronized的用法有三种：
 （2）修饰静态方法：锁的是类的class对象，所有线程访问该方法时全局互斥
 （3）修饰代码块：需显示指定锁对象，比如 new一个object对象，再synchronized(obj)，线程需要获取该对象的锁才能执行代码
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
+
 ## 5 ThreadLocal
 ### 5.1 ThreadLocal 有什么用？⭐⭐⭐
 ### 5.2 ThreadLocal 原理了解吗？⭐⭐⭐⭐⭐
