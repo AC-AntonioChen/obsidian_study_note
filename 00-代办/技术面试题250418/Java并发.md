@@ -129,7 +129,7 @@ JMM通过定义‌主内存（Main Memory）‌与‌线程工作内存（Thread
 线程对变量的操作（读/写）均在工作内存中进行，而非直接操作主内存。如果线程间需要通信，必须通过主内存来进行。
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505002759.png)
 
-### 3.4   Java 内存区域和 JMM 有何区别？ ⭐⭐⭐⭐
+3.4   Java 内存区域和 JMM 有何区别？ ⭐⭐⭐⭐
 Java内存区域和JMM是完全不同的概念，Java内存区域是指JVM的内存区域划分，是
 ### 3.5 happens-before 原则是什么？为什么需要 happens-before 原则？ ⭐⭐⭐
 
