@@ -185,12 +185,12 @@ if (taskDone) {      // 操作3
 
 ## 4 synchronized 和 volatile
 ### 4.1 synchronized 关键字 ⭐⭐⭐⭐⭐
-synchronized的用法有三种：
+synchronized是可重入锁，用法有三种：
 （1）修饰实例（非静态）方法：锁的是当前实例this，同一实例的多个线程会互斥。
 （2）修饰静态方法：锁的是类的class对象，所有线程访问该方法时全局互斥
 （3）修饰代码块：需显示指定锁对象，比如 new一个object对象，再synchronized(obj)，线程需要获取该对象的锁才能执行代码
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
-
+volatile用于修饰变量，使得线程对于变量的写操作会立即刷新到主内存中
 ## 5 ThreadLocal
 ### 5.1 ThreadLocal 有什么用？⭐⭐⭐
 ### 5.2 ThreadLocal 原理了解吗？⭐⭐⭐⭐⭐
