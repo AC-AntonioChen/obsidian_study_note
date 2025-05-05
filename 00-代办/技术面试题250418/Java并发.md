@@ -185,7 +185,10 @@ if (taskDone) {      // 操作3
 
 ## 4 synchronized 和 volatile
 ### 4.1 synchronized 关键字 ⭐⭐⭐⭐⭐
-synchronized 关键字可以给代码块加锁，具体的用法有加在方法签名上，此时该方法全局同一时刻只能被一个线程访问，也可以加在变量上，使得synchronized(Obj){}中的内容同一时刻只能被持有该obj锁的线程访问
+synchronized的用法有三种：
+（1）修饰实例（非静态）方法：锁的是当前实例this，同一实例的多个线程会互斥。
+（2）修饰静态方法：锁的是类的class对象，所有线程访问该方法时全局互斥
+（3）修饰代码块：需显示指定锁对象，比如 new一个object对象，再synchronized(obj)，线程需要获取
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
 ## 5 ThreadLocal
 ### 5.1 ThreadLocal 有什么用？⭐⭐⭐
