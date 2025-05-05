@@ -156,7 +156,31 @@ JMM是java内存模型，是一种逻辑模型。定义了线程如何通过主�
  （1）程序顺序规则：单线程内的代码按照代码顺序，书写在前面的操作 happens-before 于后面的操作
  （2）锁规则：解锁(unlock)happens-before 加锁（lock）
  （3）volatile变量规则：写volatile变量 happens-before 读该变量，对 volatile 变量的写操作的结果对于发生于其后的任何操作都是可见的。
- （4）
+ （4）传递规则：如果A happens-before B，且B happens-before C，那么A happens-before C；
+ （5）线程启动规则：Thread对象的start()方法 happens-before 于此线程的每一个动作
+ ```java
+int config = 0;  
+Thread thread = new Thread(() -> {  
+    System.out.println(config); // 必须读取到主线程初始化的值  
+});  
+config = 42;  // 主线程初始化 config  
+thread.start();
+```
+ (6)线程终止规则：线程的所有操作 Happens-Before 其他线程检测到该线程终止（如通过 `join()` 或 `isAlive()` 判断）
+ ```java
+volatile boolean taskDone = false;  
+Thread worker = new Thread(() -> {  
+    // 执行任务  
+    taskDone = true; // 操作1  
+});  
+worker.start();  
+worker.join();       // 操作2  
+// 若线程 A 终止后，线程 B 调用 `A.join()`，线程 B 必须能看到线程 A 终止前的全部操作结果（如写入共享变量的值）。
+if (taskDone) {      // 操作3  
+    // 处理任务结果  
+}  
+
+```
  ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505144120.png)
 
 ## 4 synchronized 和 volatile
