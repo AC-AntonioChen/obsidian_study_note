@@ -185,7 +185,7 @@ if (taskDone) {      // 操作3
 
 ## 4 synchronized 和 volatile
 ### 4.1 synchronized 关键字 ⭐⭐⭐⭐⭐
-
+synchronized 关键字可以给代码块加锁，具体的用法有加在方法签名上，此时该方法全局同一时刻只能被一个线程访问，也可以加在变量上，使得synchronized(Obj){}中的内容同一时刻只能被持有该obj锁的线程访问
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
 ## 5 ThreadLocal
 ### 5.1 ThreadLocal 有什么用？⭐⭐⭐
