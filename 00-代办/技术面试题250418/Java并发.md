@@ -146,7 +146,7 @@ Java 内存模型定义来以下八种同步操作（了解即可，无需死记
 
 ![](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505134522.png)
 ### 3.4   Java 内存区域和 JMM 有何区别？ ⭐⭐⭐⭐
-Java内存区域和JMM是完全不同的概念，Java内存区域是指JVM的内存区域划分，是
+Java内存区域和JMM是完全不同的概念，Java内存区域是指JVM的内存区域划分，定义了。而JMM则是java内存模型，定义了线程与主内存的交互规范，是一种基于抽象来解决Java并发编程问题的规范。
 ### 3.5 happens-before 原则是什么？为什么需要 happens-before 原则？ ⭐⭐⭐
 
 ## 4 synchronized 和 volatile
