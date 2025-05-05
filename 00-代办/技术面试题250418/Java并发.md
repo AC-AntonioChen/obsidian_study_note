@@ -151,7 +151,9 @@ JMM是java内存模型，是一种逻辑模型。定义了线程如何通过主�
 ### 3.5 happens-before 原则是什么？为什么需要 happens-before 原则？ ⭐⭐⭐
  happens-before定义了多线程操作间的逻辑先后关系，如果操作A happens-before 操作B，那么：
  （1）操作A的执行结果对于操作B可见
- （2）操作A的逻辑执行顺序在操作B之前
+ （2）操作A的逻辑执行顺序在操作B之前（因指令重排序，物理顺序不一定一致）
+ 具体规则有：
+ （1）程序顺序规则：单线程内的代码
  ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505144120.png)
 
 ## 4 synchronized 和 volatile
