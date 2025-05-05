@@ -150,6 +150,8 @@ Java内存区域是JVM运行时数据区的物理划分，包括堆（存放对�
 JMM是java内存模型，是一种逻辑模型。定义了线程如何通过主内存与线程工作内存交互，确保多线程下的可见性、有序性、原子性。
 ### 3.5 happens-before 原则是什么？为什么需要 happens-before 原则？ ⭐⭐⭐
  happens-before原则是指一个线程对于主存内容的修改，必须被另外一个线程
+ ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505144120.png)
+
 ## 4 synchronized 和 volatile
 ### 4.1 synchronized 关键字 ⭐⭐⭐⭐⭐
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
