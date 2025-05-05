@@ -153,7 +153,10 @@ JMM是java内存模型，是一种逻辑模型。定义了线程如何通过主�
  （1）操作A的执行结果对于操作B可见
  （2）操作A的逻辑执行顺序在操作B之前（因指令重排序，物理顺序不一定一致）
  具体规则有：
- （1）程序顺序规则：单线程内的代码
+ （1）程序顺序规则：单线程内的代码按照代码顺序，书写在前面的操作 happens-before 于后面的操作
+ （2）锁规则：解锁(unlock)happens-before 加锁（lock）
+ （3）volatile变量规则：写volatile变量 happens-before 读该变量，对 volatile 变量的写操作的结果对于发生于其后的任何操作都是可见的。
+ （4）
  ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505144120.png)
 
 ## 4 synchronized 和 volatile
