@@ -185,6 +185,7 @@ if (taskDone) {      // 操作3
 
 ## 4 synchronized 和 volatile
 ### 4.1 synchronized 关键字 ⭐⭐⭐⭐⭐
+
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
 ## 5 ThreadLocal
 ### 5.1 ThreadLocal 有什么用？⭐⭐⭐
