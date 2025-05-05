@@ -127,6 +127,8 @@ JMM通过定义‌主内存（Main Memory）‌与‌线程工作内存（Thread
 主内存：所有共享变量的存储区域，对所有线程可见。
 ‌线程工作内存‌：每个线程独立拥有的私有内存区域，缓存主内存中的共享变量副本。
 线程对变量的操作（读/写）均在工作内存中进行，而非直接操作主内存。如果线程间需要通信，必须通过主内存来进行。
+![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20250505002759.png)
+
 ### Java 内存区域和 JMM 有何区别？ ⭐⭐⭐⭐
 
 ### happens-before 原则是什么？为什么需要 happens-before 原则？ ⭐⭐⭐
