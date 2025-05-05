@@ -181,8 +181,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -292,7 +291,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "867b2e24d8bd9262",
+  "active": "de1f1dceae6942eb",
   "lastOpenFiles": [
     "00-代办/技术面试题250418/MySQL.md",
     "00-代办/技术面试题250418/JVM.md",
