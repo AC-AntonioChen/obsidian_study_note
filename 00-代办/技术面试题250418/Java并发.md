@@ -149,7 +149,7 @@ Java 内存模型定义来以下八种同步操作（了解即可，无需死记
 Java内存区域是JVM运行时数据区的物理划分，包括堆（存放对象实例）、栈（局部变量）、方法区（类信息）、程序计数器等，决定了数据的存储位置。
 JMM是java内存模型，是一种逻辑模型。定义了线程如何通过主内存与线程工作内存交互，确保多线程下的可见性、有序性、原子性。
 ### 3.5 happens-before 原则是什么？为什么需要 happens-before 原则？ ⭐⭐⭐
-
+ happens-before原则是指
 ## 4 synchronized 和 volatile
 ### 4.1 synchronized 关键字 ⭐⭐⭐⭐⭐
 ### 4.2 volatile 关键字 ⭐⭐⭐⭐⭐
