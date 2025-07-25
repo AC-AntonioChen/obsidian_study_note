@@ -280,7 +280,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1036.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,7 +296,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "de1f1dceae6942eb",
+  "active": "867b2e24d8bd9262",
   "lastOpenFiles": [
     "00-代办/技术面试题250418/Redis.md",
     "00-代办/技术面试题250418/MySQL.md",
