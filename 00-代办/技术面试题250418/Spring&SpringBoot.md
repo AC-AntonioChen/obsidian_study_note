@@ -1,6 +1,6 @@
 ## 1 spring
 ### 1.1 列举一些重要的 Spring 模块？⭐⭐⭐
-
+Spring core，spring 
 ### 1.2 谈谈你对 Spring IoC 的理解 ⭐⭐⭐⭐⭐
 ### 1.3 IoC 和 DI 有区别吗？⭐⭐⭐⭐
 ### 1.4 什么是 Spring Bean？作用域有哪些？⭐⭐⭐
