@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "JVM",
+      "path": "00-代办/技术面试题250418/JVM.md"
+    },
+    {
       "basename": "Java并发",
       "path": "00-代办/技术面试题250418/Java并发.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "MySQL",
       "path": "00-代办/技术面试题250418/MySQL.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "00-代办/技术面试题250418/JVM.md"
     },
     {
       "basename": "Java集合",
