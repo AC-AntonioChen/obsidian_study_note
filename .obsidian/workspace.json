@@ -274,13 +274,23 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
+          },
+          {
+            "id": "8d271c1cc20f2f24",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 807.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,7 +306,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "867b2e24d8bd9262",
+  "active": "8d271c1cc20f2f24",
   "lastOpenFiles": [
     "00-代办/技术面试题250418/Redis.md",
     "00-代办/技术面试题250418/MySQL.md",
