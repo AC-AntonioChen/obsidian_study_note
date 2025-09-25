@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "b45f5e8e7b55a4a0",
@@ -260,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-代办/技术面试题250418/Spring&SpringBoot.md",
+                "file": "04-旅游/25_09云南/250915旅行攻略.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring&SpringBoot 的大纲"
+              "title": "250915旅行攻略 的大纲"
             }
           },
           {
@@ -300,11 +301,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 224.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
