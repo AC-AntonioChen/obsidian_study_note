@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "计网"
             }
+          },
+          {
+            "id": "d3f16b5ff381df41",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,8 +203,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d27f7858a9fe08c2",
+  "active": "d3f16b5ff381df41",
   "lastOpenFiles": [
+    "00-代办/技术面试题250418/计网.md",
+    "/00-代办/技术面试题250418/计网.md",
+    "/00-代办/技术面试题250418",
+    "/00-代办",
     "00-代办/技术面试题模板/01_MySQL.md",
     "00-代办/技术面试题模板/04_Java基础.md",
     "00-代办/技术面试题模板/05_Java集合.md",
@@ -223,11 +237,7 @@
     "/00-代办/复习重点.md",
     "/00-代办/AI prompt.md",
     "/00-代办/技术面试题模板/08_计网.md",
-    "/00-代办/技术面试题模板/07_Spring&SpringBoot.md",
-    "/00-代办/技术面试题模板/06_JVM.md",
-    "/00-代办/技术面试题250418",
     "/04-旅游",
-    "/00-代办/技术面试题模板",
-    "/00-代办"
+    "/00-代办/技术面试题模板"
   ]
 }
