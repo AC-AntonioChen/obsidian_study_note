@@ -163,14 +163,14 @@
             "id": "5479b4b4520878f4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/recent-files-obsidian/data.json",
-                "bFile": ".obsidian/plugins/recent-files-obsidian/data.json",
-                "aRef": ""
+                "file": "00-代办/技术面试题模板/01_MySQL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-file",
+              "title": "01_MySQL"
             }
           }
         ],
@@ -346,7 +346,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 693.5
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -365,6 +365,7 @@
   },
   "active": "5479b4b4520878f4",
   "lastOpenFiles": [
+    "00-代办/技术面试题模板/02_Redis.md",
     "conflict-files-obsidian-git.md",
     "未命名 3.md",
     "2510 云南.md",
@@ -392,7 +393,6 @@
     "04-旅游/wb_2024-11-11 22.19.36.excalidraw.md",
     "04-旅游/小兴安岭环线/checklist.md",
     "04-旅游/小兴安岭环线/小兴安岭.md",
-    "04-旅游/清远/wb_2024-07-19 00.55.27.excalidraw.md",
     "study-note",
     "00-代办/技术面试题250418",
     "00-代办/技术面试题模板",
