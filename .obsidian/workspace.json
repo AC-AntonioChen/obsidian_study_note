@@ -177,12 +177,14 @@
             "id": "063427549f503d9d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "01-学习/02_训练营/01_redis专项/未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.10.3"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ],
@@ -375,8 +377,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "063427549f503d9d",
+  "active": "de1f1dceae6942eb",
   "lastOpenFiles": [
+    "01-学习/02_训练营/01_redis专项/未命名.md",
+    "01-学习/02_训练营/01_redis专项",
+    "01-学习/02_训练营",
     "00-代办/技术面试题模板/02_Redis.md",
     "conflict-files-obsidian-git.md",
     "未命名 3.md",
@@ -404,16 +409,13 @@
     "04-旅游/小兴安岭环线/wb_2024-09-23 22.26.06.excalidraw.md",
     "04-旅游/wb_2024-11-11 22.19.36.excalidraw.md",
     "04-旅游/小兴安岭环线/checklist.md",
-    "04-旅游/小兴安岭环线/小兴安岭.md",
     "study-note",
     "00-代办/技术面试题250418",
     "00-代办/技术面试题模板",
     "01-学习/01_Java笔记/01_JVM",
     "01-学习/01_Java笔记",
-    "01-学习/未命名",
     "新建文件夹",
     "00-代办",
-    "未命名",
     "09-其他/附件存储/Pasted Image 20240719005852_909.jpg",
     "09-其他/附件存储/Pasted Image 20240929234111_707.png",
     "09-其他/附件存储/Pasted Image 20240923222621_974.png",
