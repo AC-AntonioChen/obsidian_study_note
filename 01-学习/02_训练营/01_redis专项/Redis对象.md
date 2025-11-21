@@ -5,7 +5,7 @@ Redis是key-value存储，key和value在Redis中都被抽象为对象，key只�
 ```c
 #define LRU_BITS 24
 typedef struct redisobject {
-unsigned type:4;// **位域（bit-field）语法**：`unsigned` 表示无符号整数，`type:4` 表示只用 4 个二进制位来存储。
+unsigned type:4;// **位域（bit-field）语法**：`unsigned` 表示无符号整数，`type:4` 表示只用 4 个二进制位(最多表16种)来存储。
 unsigned encoding:4;
 unsigned lru:LRU_BITS; 
 int refcount;
