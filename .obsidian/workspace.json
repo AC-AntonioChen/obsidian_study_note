@@ -172,9 +172,21 @@
               "icon": "lucide-file",
               "title": "01_MySQL"
             }
+          },
+          {
+            "id": "063427549f503d9d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.3"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -363,7 +375,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5479b4b4520878f4",
+  "active": "063427549f503d9d",
   "lastOpenFiles": [
     "00-代办/技术面试题模板/02_Redis.md",
     "conflict-files-obsidian-git.md",
