@@ -1,24 +1,60 @@
-## 对象是redis 的基本单位
-### Redis 对象结构
-Redis是key-value存储，key和value在Redis中都被抽象为对象，key只能是String对象，而Value支持丰富的对象种类，包括String、List、Set、Hash、Sorted Set、Stream等.
-### Object在内存中的结构
-```c
-#define LRU_BITS 24
-typedef struct redisobject {
-unsigned type:4;// **位域（bit-field）语法**：`unsigned` 表示无符号整数，`type:4` 表示只用 4 个二进制位(最多表16种)来存储。
-unsigned encoding:4;
-unsigned lru:LRU_BITS; 
-int refcount;
-void *ptr;
-} robj;
-```
-type：是哪种Redis对象
-encoding：表示用哪种底层编码，用OBJECT ENCODING [key]可以看到对应的编码方式
-Iru：记录对象访问信息，用于内存淘汰，这个可以先忽略，后续章节会详细介绍。
-refcount：引用计数，用来描述有多少个指针，指向该对象ptr：内容指针，指向实际内容
-## String字符串：最基本的数据对象
-创建：set setnx（设置如果不存在key）
-查询：get mget（获取一批数据）
-更新：set
-删除：del
-### 写操作
+## 1. 核心对象：`redisObject` 结构体
+
+Redis 中 Key 和 Value 的统一抽象容器，是所有数据结构的基石。
+
+|**字段**|**作用**|**重点**|
+|---|---|---|
+|`type`|**对象类型**：用户可见的抽象数据结构（5种）。|抽象层|
+|`encoding`|**底层编码**：实际使用的内存结构。|**实现层/优化核心**|
+|`ptr`|指向底层数据结构的指针。|实际数据|
+|`lru`/`refcount`|内存淘汰与共享管理。|内存管理|
+
+## 2. 抽象层 (`type`)：5 大基本类型
+
+用户通过 `TYPE key` 命令看到的结果，决定了可执行的操作集。
+
+- **STRING**：字符串、整数、浮点数。
+    
+- **LIST**：有序、可重复。
+    
+- **HASH**：字段-值的映射表。
+    
+- **SET**：无序、元素唯一。
+    
+- **ZSET**：有序、带 Score 的元素集合。
+    
+
+## 3. 实现层 (`encoding`)：性能与内存优化
+
+Redis 根据数据量大小和特征，自动选择最合适的底层编码，以平衡性能和内存。
+
+### A. 核心优化机制
+
+|**目标**|**编码**|**优势**|
+|---|---|---|
+|**小数据量**|`intset`, `listpack`, `embstr`|**内存紧凑**，减少指针开销。|
+|**大数据量**|`hashtable`, `quicklist`, `skiplist`|**通用灵活**，支持复杂操作。|
+
+### B. 类型与编码对应关系 (重点关注)
+
+|**type**|**优化编码（内存友好）**|**通用编码（功能全面）**|
+|---|---|---|
+|**List**|`listpack` (新)|**`quicklist` (主力)**|
+|**Hash**|`listpack` (新)|`hashtable`|
+|**Set**|`intset` (全为整数时)|`hashtable`|
+|**ZSet**|`listpack` (新)|`skiplist` + `hashtable`|
+
+### C. 编码转换 (Encodings Switch)
+
+- **机制**：当数据增长**超出阈值限制**（如元素数量、元素大小）时，Redis **自动**将底层编码从内存紧凑结构 **升级** 到通用结构。
+    
+- **特性**：**不可逆**。升级后即使数据减少，也不会降级。
+    
+
+## 4. 总结：核心设计理念
+
+Redis 的高性能基于这种分层设计：
+
+$$\text{Redis 抽象数据结构} (\text{type}) \longrightarrow \text{通过指针} (\text{ptr}) \longrightarrow \text{实际底层存储结构} (\text{encoding})$$
+
+这种设计实现了**抽象**（易用性）与**实现**（性能/内存优化）的完美解耦。
