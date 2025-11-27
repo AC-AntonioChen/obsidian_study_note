@@ -15,7 +15,7 @@
               "state": {
                 "file": "01-学习/02_训练营/题目.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "题目"
