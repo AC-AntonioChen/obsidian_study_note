@@ -1,4 +1,4 @@
-## **Redis 对象系统（The Object System）**。
+
 
 理解这套系统，是掌握 Redis 核心设计思想的关键。
 
