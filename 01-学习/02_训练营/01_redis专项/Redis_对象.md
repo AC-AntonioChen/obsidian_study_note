@@ -57,5 +57,8 @@ table
 跳表有两个核心：1多级索引，2随机化，相比红黑树复杂的旋转和颜色调整来保持平衡，跳表通过随机数来决定节点是否需要上升一层，这种随机保持了索引的对数级别稀疏，从而使得平均查找时间复杂度为ologn
 #### zset
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251130205151.png)
-
-
+zset的底层实现有ziplist和skiplist+ht
+ziplist：
+1.列表对象保存的所有字符串对象长度都小于64字节;
+2.列表对象元素个数少于128个。
+skiplist+ht
