@@ -50,3 +50,7 @@ table
 */
 ```
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251130171633.png)
+### Zset
+#### 跳表
+跳表是有序集合Zset的底层数据结构。本质上是链表，用空间换时间，类似数据库的B
+树索引
