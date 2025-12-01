@@ -1,3 +1,6 @@
+## redis object
+![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201214903.png)
+
 ### String
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251129213530.png)
 
@@ -62,3 +65,9 @@ ziplist：
 1.列表对象保存的所有字符串对象长度都小于64字节;
 2.列表对象元素个数少于128个。
 skiplist+ht
+
+## redis底层结构
+### 数据库结构
+```c
+
+```
