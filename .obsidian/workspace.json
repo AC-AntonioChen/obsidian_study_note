@@ -37,7 +37,8 @@
               "title": "题目"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,10 +229,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f20c3209d31dfbaf",
+  "active": "b9547479ca40c01e",
   "lastOpenFiles": [
-    "01-学习/02_训练营/题目.md",
     "01-学习/02_训练营/01_redis专项/Redis_对象.md",
+    "01-学习/02_训练营/题目.md",
     "01-学习/02_训练营/01_redis专项/Redis对象数据结构解析.md",
     "未命名 1",
     "01-学习/02_训练营/01_redis专项",
