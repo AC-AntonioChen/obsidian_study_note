@@ -84,6 +84,8 @@ typedef struct redisDb {
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201233908.png)
 过期键存在expires 字典上，dict和expires的key对象实际上存储是string对象指针，不会维护两个一样的string
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201234007.png)
-#### redis并发模型
+### redis并发模型
 核心是单线程的。辅助模块会有多线程多进程的功能，
 例如复制模块使用多进程；部分非阻塞异步流程（unlink，flushall async）使用多线程；网络I/O解包从6.0开始使用多线程
+#### redis 单线程快的原因
+（1）内存操作；（2）高效数据结构（3）I/O多路复用
