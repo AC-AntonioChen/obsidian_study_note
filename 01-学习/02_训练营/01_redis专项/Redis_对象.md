@@ -81,3 +81,5 @@ typedef struct redisDb {
 } redisDb;
 
 ```
+![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201233908.png)
+过期键存在expire上
