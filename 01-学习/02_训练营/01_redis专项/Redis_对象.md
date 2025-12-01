@@ -69,5 +69,15 @@ skiplist+ht
 ## redis底层结构
 ### 数据库结构
 ```c
+typedef struct redisDb {
+    dict *dict;                 /* 键空间（存储所有键值对的主字典） */
+    dict *expires;              /* 保存带过期时间的键及其过期时间戳 */
+    dict *blocking_keys;        /* 阻塞等待的键（如 BLPOP/BRPOP 等命令使用的键） */
+    dict *ready_keys;           /* 已经准备好唤醒阻塞客户端的键（如 PUSH 操作触发） */
+    dict *watched_keys;         /* 被事务 WATCH 的键，用于 MULTI/EXEC 的乐观锁机制 */
+    int id;                     /* 数据库编号（默认 Redis 有 16 个数据库，编号 0–15） */
+    long long avg_ttl;          /* 平均 TTL（存活时间），用于统计信息 */
+    list *defrag_later;         /* 延迟碎片整理的键列表，用于内存优化 */
+} redisDb;
 
 ```
