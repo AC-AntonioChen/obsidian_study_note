@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "场景应用",
+      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
+    },
+    {
       "basename": "Redis的单线程和多线程执行过程",
       "path": "01-学习/02_训练营/01_redis专项/Redis的单线程和多线程执行过程.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "出行计划_郴州",
       "path": "04-旅游/郴州/出行计划_郴州.md"
-    },
-    {
-      "basename": "wb_2024-07-19 00.55.27.excalidraw",
-      "path": "04-旅游/清远/wb_2024-07-19 00.55.27.excalidraw.md"
     }
   ],
   "omittedPaths": [],
