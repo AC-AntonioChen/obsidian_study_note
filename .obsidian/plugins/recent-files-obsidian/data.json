@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "01-学习/02_训练营/未命名.md"
+    },
+    {
+      "basename": "题目",
+      "path": "01-学习/02_训练营/题目.md"
+    },
+    {
+      "basename": "未命名 5",
+      "path": "未命名 5.md"
+    },
+    {
       "basename": "场景应用",
       "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "未命名 4",
       "path": "未命名 4.md"
-    },
-    {
-      "basename": "题目",
-      "path": "01-学习/02_训练营/题目.md"
     },
     {
       "basename": "Redis的单线程和多线程执行过程",
@@ -191,14 +199,6 @@
     {
       "basename": "checklist",
       "path": "04-旅游/小兴安岭环线/checklist.md"
-    },
-    {
-      "basename": "wb_2024-09-23 22.26.06.excalidraw",
-      "path": "04-旅游/小兴安岭环线/wb_2024-09-23 22.26.06.excalidraw.md"
-    },
-    {
-      "basename": "英德计划",
-      "path": "04-旅游/清远/英德计划.md"
     }
   ],
   "omittedPaths": [],
