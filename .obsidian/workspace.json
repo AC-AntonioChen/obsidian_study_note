@@ -59,7 +59,7 @@
               "state": {
                 "file": "01-学习/02_训练营/01_redis专项/Redis_对象.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Redis_对象"
