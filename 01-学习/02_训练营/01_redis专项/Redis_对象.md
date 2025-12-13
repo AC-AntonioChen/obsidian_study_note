@@ -93,19 +93,18 @@ redisObject 结构体主要包含这几个关键字段:
 
 这是Redis为了**省内存**和**追求极致性能**而设计的“黑科技”。同一个用户类型（第一层），在数据量不同时，会由Redis自动切换使用不同的底层数据结构（第三层）。
 
-|                    |                      |                             |                                                    |
-| ------------------ | -------------------- | --------------------------- | -------------------------------------------------- |
-| 用户视角 (Object Type) | 底层编码 (Encoding)      | 对应的实际数据结构                   | 触发场景/特点 (面试高频)                                     |
-| **String**         | int                  | C语言 long 类型                 | 字符串本身就是个整数，且在Long范围内。                              |
-|                    | embstr               | SDS (Simple Dynamic String) | 字符串较短（<44字节），元数据和数据在一块连续内存，分配快。                    |
-|                    | raw                  | SDS (Simple Dynamic String) | 字符串较长，需要分配两次内存。                                    |
-| **List**           | quicklist            | QuickList (双向链表+ZipList)    | 早期版本用Linkedlist或Ziplist，现在统一用quicklist（兼顾插入效率和内存）。 |
-| **Hash**           | ziplist (或 listpack) | 压缩列表                        | 键值对少且value短时使用。**极致省内存，但在内存中是连续紧凑的。**              |
-|                    | hashtable            | Dict (字典)                   | 数据多了自动膨胀为哈希表（类似Java HashMap）。                      |
-| **Set**            | intset               | 整数集合                        | 集合里全是整数且数量少时。底层是数组，有序，查找用二分。                       |
-|                    | hashtable            | Dict (字典)                   | 有非整数或数量多了。value为null的HashMap。                      |
-| **ZSet**           | ziplist (或 listpack) | 压缩列表                        | 元素少且短。                                             |
-|                    | skiplist             | 跳表 + Dict                   | 元素多了。**跳表支持范围查询高效，Dict支持查分高效。**                    |
+|用户视角 (Object Type)|底层编码 (Encoding)|对应的实际数据结构|触发场景/特点 (面试高频)|跳变阈值 (默认配置)|
+|---|---|---|---|---|
+|**String**|int|C语言 long 类型|字符串本身就是个整数，且在 Long 范围内。|超出 long 范围 → 转 SDS|
+||embstr|SDS (Simple Dynamic String)|字符串较短（<44字节），元数据和数据在一块连续内存，分配快。|长度 ≤ 44 字节|
+||raw|SDS (Simple Dynamic String)|字符串较长，需要分配两次内存。|长度 > 44 字节|
+|**List**|quicklist|QuickList (双向链表+ZipList/Listpack)|早期版本用 Linkedlist 或 Ziplist，现在统一用 Quicklist。|每个节点大小由 `list-max-ziplist-size` 控制（默认 -2，约 8KB）|
+|**Hash**|ziplist / listpack|压缩列表|键值对少且 value 短时使用，极致省内存。|`hash-max-ziplist-entries` 默认 512；`hash-max-ziplist-value` 默认 64 字节|
+||hashtable|Dict (字典)|数据多了自动膨胀为哈希表。|超过上述阈值时跳变|
+|**Set**|intset|整数集合|集合里全是整数且数量少时。底层是数组，有序，查找用二分。|`set-max-intset-entries` 默认 512|
+||hashtable|Dict (字典)|有非整数或数量多了。|超过阈值或出现非整数元素时跳变|
+|**ZSet**|ziplist / listpack|压缩列表|元素少且短。|`zset-max-ziplist-entries` 默认 128；`zset-max-ziplist-value` 默认 64 字节|
+||skiplist|跳表 + Dict|元素多了，跳表支持范围查询高效，Dict 支持查分高效。|超过上述阈值时跳变|
 
 ## redis object
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201214903.png)
