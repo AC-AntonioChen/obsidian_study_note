@@ -60,6 +60,7 @@ package "Layer 3: 物理存储层 (真正数据结构)" {
 
 ```
 
+
 ## redis object
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201214903.png)
 
