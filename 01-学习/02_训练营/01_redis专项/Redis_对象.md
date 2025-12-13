@@ -59,7 +59,53 @@ package "Layer 3: 物理存储层 (真正数据结构)" {
 @enduml
 
 ```
+### 第一层：用户层(对外数据类型)
+这是你在代码里、CLI（命令行）里直接操作的。
+1. **String** (字符串)
+2. **Hash** (哈希)
+3. **List** (列表)
+4. **Set** (集合)
+5. **ZSet** (Sorted Set 有序集合)  
+    (注：还有Bitmaps, HyperLogLog, GEO, Stream等，但面试核心是前5个)
+---
 
+### 第二层：中间层（桥梁）**RedisObject (元数据头)**
+
+
+
+redisObject。它是Redis内部的一个**C语言结构体**。  
+你可以把它理解为Java中的“对象头”或者快递包裹的“面单”。无论你存的是String还是Hash，Redis在内部都会先把它封装成一个 redisObject。
+
+**它的核心作用是：告诉Redis，这个值是什么类型，用什么编码，以及数据存在哪里。**
+
+redisObject 结构体主要包含这几个关键字段:
+1. **type (4 bits)**: 对应第一层的类型（如：REDIS_STRING, REDIS_HASH...）。
+    
+2. **encoding (4 bits)**: 对应第三层的底层编码（告诉Redis这数据到底是用什么数据结构存的）。
+    
+3. **ptr**: 指针，指向底层真正的“数据结构”的内存地址。
+    
+4. **lru (24 bits)**: 记录最后一次被访问的时间（用于LRU淘汰算法，**面试常问：内存满了怎么淘汰？靠这个字段**）。
+    
+5. **refcount**: 引用计数（用于内存共享和回收）。
+    
+### 第三层：底层实现层（真实的物理存储）**Underlying Encodings (底层编码/数据结构)
+
+这是Redis为了**省内存**和**追求极致性能**而设计的“黑科技”。同一个用户类型（第一层），在数据量不同时，会由Redis自动切换使用不同的底层数据结构（第三层）。
+
+|                    |                      |                             |                                                    |
+| ------------------ | -------------------- | --------------------------- | -------------------------------------------------- |
+| 用户视角 (Object Type) | 底层编码 (Encoding)      | 对应的实际数据结构                   | 触发场景/特点 (面试高频)                                     |
+| **String**         | int                  | C语言 long 类型                 | 字符串本身就是个整数，且在Long范围内。                              |
+|                    | embstr               | SDS (Simple Dynamic String) | 字符串较短（<44字节），元数据和数据在一块连续内存，分配快。                    |
+|                    | raw                  | SDS (Simple Dynamic String) | 字符串较长，需要分配两次内存。                                    |
+| **List**           | quicklist            | QuickList (双向链表+ZipList)    | 早期版本用Linkedlist或Ziplist，现在统一用quicklist（兼顾插入效率和内存）。 |
+| **Hash**           | ziplist (或 listpack) | 压缩列表                        | 键值对少且value短时使用。**极致省内存，但在内存中是连续紧凑的。**              |
+|                    | hashtable            | Dict (字典)                   | 数据多了自动膨胀为哈希表（类似Java HashMap）。                      |
+| **Set**            | intset               | 整数集合                        | 集合里全是整数且数量少时。底层是数组，有序，查找用二分。                       |
+|                    | hashtable            | Dict (字典)                   | 有非整数或数量多了。value为null的HashMap。                      |
+| **ZSet**           | ziplist (或 listpack) | 压缩列表                        | 元素少且短。                                             |
+|                    | skiplist             | 跳表 + Dict                   | 元素多了。**跳表支持范围查询高效，Dict支持查分高效。**                    |
 
 ## redis object
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201214903.png)
