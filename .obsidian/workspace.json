@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-学习/02_训练营/redis题库.md",
+                "file": "01-学习/02_训练营/01_redis专项/Redis_对象.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "redis题库"
+              "title": "Redis_对象"
             }
           },
           {
@@ -272,8 +272,8 @@
   },
   "active": "8a4ee27a7b55ba6c",
   "lastOpenFiles": [
-    "01-学习/02_训练营/题目.md",
     "01-学习/02_训练营/redis题库.md",
+    "01-学习/02_训练营/题目.md",
     "未命名 5.md",
     "01-学习/02_训练营/01_redis专项/场景应用.md",
     "01-学习/02_训练营/01_redis专项/Redis_对象.md",

@@ -1,3 +1,93 @@
+## Redis 由上至下
+
+```plantuml
+@startuml
+!theme plain
+skinparam componentStyle rectangle
+skinparam linetype ortho
+
+title Redis 全景架构：从逻辑类型到物理存储
+
+' --- 第一层：用户逻辑层 ---
+package "第一层：用户/逻辑接口层 (User Interface Layer)\n[你看到的 Redis 类型]" as Layer1 {
+    component "String\n(字符串)" as US
+    component "List\n(列表)" as UL
+    component "Hash\n(哈希表)" as UH
+    component "Set\n(集合)" as UT
+    component "ZSet\n(有序集合)" as UZ
+}
+
+' --- 第二层：对象元数据层 ---
+package "第二层：对象元数据层 (Object Metadata Layer)\n[C语言 struct redisObject]" as Layer2 {
+    class "redisObject" as RO {
+        + type: 4 bits (类型)
+        + encoding: 4 bits (编码)
+        + ptr: void* (指针)
+        ..其他元数据..
+        lru / refcount
+    }
+    
+    note right of RO
+        这是所有数据类型的"通用外壳"
+        type 决定逻辑类型
+        encoding 决定物理存储
+    end note
+}
+
+' --- 第三层：物理存储层 ---
+package "第三层：物理存储/实现层 (Implementation Layer)\n[内存中的真实数据结构]" as Layer3 {
+    
+    ' String 的三种编码
+    frame "String 编码 (ptr指向)" {
+        component "INT\n(long 整数)" as INT
+        component "EMBSTR\n(sdshdr+robj 紧凑)" as EMB
+        component "RAW\n(sdshdr 独立分配)" as RAW
+    }
+
+    ' 容器的编码
+    frame "容器 编码 (ptr指向)" {
+        component "Quicklist\n(双向链表)" as QL
+        component "Listpack\n(紧凑列表)" as LP
+        component "Hashtable\n(哈希表)" as HT
+        component "Skiplist\n(跳表)" as SL
+        component "IntSet\n(整数集合)" as IS
+    }
+}
+
+' --- 绘制关系连线 ---
+
+' 1. 用户层 -> 对象层 (逻辑映射)
+US ..> RO : type=STRING
+UL ..> RO : type=LIST
+UH ..> RO : type=HASH
+UT ..> RO : type=SET
+UZ ..> RO : type=ZSET
+
+' 2. 对象层 -> 物理层 (根据 encoding 指针指向)
+
+' String 的指向
+RO --> INT : 纯数字
+RO --> EMB : 短字符串
+RO --> RAW : 长字符串
+
+' List 的指向
+RO --> QL : 总是 Quicklist
+
+' Hash 的指向
+RO --> LP : 数据少
+RO --> HT : 数据多
+
+' Set 的指向
+RO --> IS : 纯数字且少
+RO --> HT : 其他情况
+
+' ZSet 的指向
+RO --> LP : 数据少
+RO --> SL : 数据多
+
+@enduml
+```
+
 ## redis object
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20251201214903.png)
 
