@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "01-学习/02_训练营/02_MySQL专项/未命名.md"
+    },
+    {
       "basename": "Redis_对象",
       "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "小兴安岭",
       "path": "04-旅游/小兴安岭环线/小兴安岭.md"
-    },
-    {
-      "basename": "checklist",
-      "path": "04-旅游/小兴安岭环线/checklist.md"
     }
   ],
   "omittedPaths": [],
