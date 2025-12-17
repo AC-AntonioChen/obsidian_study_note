@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Mysql库",
+      "path": "01-学习/02_训练营/Mysql库.md"
+    },
+    {
+      "basename": "题目",
+      "path": "01-学习/02_训练营/题目.md"
+    },
+    {
+      "basename": "redis库",
+      "path": "01-学习/02_训练营/redis库.md"
+    },
+    {
       "basename": "未命名",
       "path": "01-学习/02_训练营/02_MySQL专项/未命名.md"
     },
     {
       "basename": "Redis_对象",
       "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
-    },
-    {
-      "basename": "redis题库",
-      "path": "01-学习/02_训练营/redis题库.md"
-    },
-    {
-      "basename": "题目",
-      "path": "01-学习/02_训练营/题目.md"
     },
     {
       "basename": "未命名 5",
@@ -195,10 +199,6 @@
     {
       "basename": "241026_",
       "path": "03-think/交流/241026_.md"
-    },
-    {
-      "basename": "小兴安岭",
-      "path": "04-旅游/小兴安岭环线/小兴安岭.md"
     }
   ],
   "omittedPaths": [],
