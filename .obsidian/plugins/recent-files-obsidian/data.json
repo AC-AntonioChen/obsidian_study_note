@@ -5,6 +5,10 @@
       "path": "01-学习/02_训练营/02_MySQL专项/未命名.md"
     },
     {
+      "basename": "场景应用",
+      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
+    },
+    {
       "basename": "Mysql库",
       "path": "01-学习/02_训练营/Mysql库.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "未命名 5",
       "path": "未命名 5.md"
-    },
-    {
-      "basename": "场景应用",
-      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
     },
     {
       "basename": "未命名 4",
