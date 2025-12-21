@@ -141,12 +141,17 @@ CREATE TABLE users (
   3. `select * from T where c=1 and a=2 and b=3;
 abc都能走索引，mysql优化器会帮我们调整字段的查询顺序，也符合最左匹配原则。
   4. `select * from T where a=2 and c=3;`
-
+a会走索引，而c不会，不过c可以被索引下推
   5. `select * from T where b=2 and c=3;`
-
+bc都走不了，只能全表扫描
   6. `select (a,b) from T where a=1 and b>2;
 
-  
+#### 什么是索引下推
+  - **传统方式**：先用索引找主键，再回表取整行数据，最后在 Server 层判断是否满足 `WHERE` 条件。
+- **索引下推**：在**存储引擎层**就用索引字段判断是否满足 `WHERE` 条件，**不满足的直接丢弃，避免回表**。
+    
+- **好处**：减少不必要的回表 I/O，尤其在大表或低选择性字段上效果显著。
+
 ### `where a>1 and b=2 and c<3` 怎么建立索引？
 
 ## 事务
