@@ -134,12 +134,19 @@ CREATE TABLE users (
 - 当查询条件中使用了某个列，但是该列的值包含范围查询，范围查询的字段可以用到联合索引，但是在范围查询字段的后面的字段无法用到联合索引。所以，我们在使用联合索引的时候，要遵守最左匹配原则，否则可能会出现部分索引字段走不了索引。
 (在联合索引中，**第二个字段的排序是依赖于第一个字段的**。只有当第一个字段**相等**（值固定）时，第二个字段才是有序的；一旦第一个字段是**范围**（值不固定），第二个字段在全局看就是**乱序**的。)
 ### 联合索引 `(a,b,c)`，下面的查询语句会不会走索引？具体哪些字段能走？
-  1. `select * from T where a=1 and b=2 and c=3;`
+  1. `select * from T where a=1 and b=2 and c=3;
+  会，因此从左到右
   2. `select * from T where a=1 and b>2 and c=3;`
-  3. `select * from T where c=1 and a=2 and b=3;`
+  
+  3. `select * from T where c=1 and a=2 and b=3;
+
   4. `select * from T where a=2 and c=3;`
+
   5. `select * from T where b=2 and c=3;`
-  6. `select (a,b) from T where a=1 and b>2;`
+
+  6. `select (a,b) from T where a=1 and b>2;
+
+  
 ### `where a>1 and b=2 and c<3` 怎么建立索引？
 
 ## 事务
