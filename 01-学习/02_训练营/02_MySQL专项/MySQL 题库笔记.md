@@ -135,11 +135,11 @@ CREATE TABLE users (
 (在联合索引中，**第二个字段的排序是依赖于第一个字段的**。只有当第一个字段**相等**（值固定）时，第二个字段才是有序的；一旦第一个字段是**范围**（值不固定），第二个字段在全局看就是**乱序**的。)
 ### 联合索引 `(a,b,c)`，下面的查询语句会不会走索引？具体哪些字段能走？
   1. `select * from T where a=1 and b=2 and c=3;
-  会，因此从左到右
+  会，符合最左匹配原则，abc都走
   2. `select * from T where a=1 and b>2 and c=3;`
-  
+  会走索引，但只有a，b走，c不走
   3. `select * from T where c=1 and a=2 and b=3;
-
+不会，不符合最左匹配，触发全表扫描
   4. `select * from T where a=2 and c=3;`
 
   5. `select * from T where b=2 and c=3;`
