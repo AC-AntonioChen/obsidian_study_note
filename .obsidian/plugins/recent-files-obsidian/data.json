@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "EXPLAIN 结果解析",
-      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
-    },
-    {
       "basename": "MySQL 题库笔记",
       "path": "01-学习/02_训练营/02_MySQL专项/MySQL 题库笔记.md"
+    },
+    {
+      "basename": "题目",
+      "path": "01-学习/02_训练营/题目.md"
+    },
+    {
+      "basename": "EXPLAIN 结果解析",
+      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
     },
     {
       "basename": "Mysql库",
@@ -15,10 +19,6 @@
     {
       "basename": "未命名 4",
       "path": "未命名 4.md"
-    },
-    {
-      "basename": "题目",
-      "path": "01-学习/02_训练营/题目.md"
     },
     {
       "basename": "场景应用",
