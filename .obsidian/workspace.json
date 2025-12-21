@@ -197,7 +197,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -209,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-旅游/25_09云南/250915旅行攻略.md",
+                "file": "01-学习/02_训练营/02_MySQL专项/MySQL 题库笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "250915旅行攻略 的大纲"
+              "title": "MySQL 题库笔记 的大纲"
             }
           },
           {
@@ -249,7 +251,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
