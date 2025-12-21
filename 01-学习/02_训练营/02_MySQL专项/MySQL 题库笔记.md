@@ -137,7 +137,7 @@ CREATE TABLE users (
   1. `select * from T where a=1 and b=2 and c=3;
   会，符合最左匹配原则，abc都走
   2. `select * from T where a=1 and b>2 and c=3;`
-  会走索引，但只有a，b走，c不走
+范围查询后面的字段无法使用索引，但只有a，b走，c不走索引，不过可以进行索引下推
   3. `select * from T where c=1 and a=2 and b=3;
 不会，不符合最左匹配，触发全表扫描
   4. `select * from T where a=2 and c=3;`
