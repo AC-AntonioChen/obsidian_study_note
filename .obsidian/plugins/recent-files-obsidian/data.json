@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "EXPLAIN 结果解析",
+      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
+    },
+    {
       "basename": "MySQL 题库笔记",
       "path": "01-学习/02_训练营/02_MySQL专项/MySQL 题库笔记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "未命名",
       "path": "04-旅游/25_01春节/未命名.md"
-    },
-    {
-      "basename": "241026_",
-      "path": "03-think/交流/241026_.md"
     }
   ],
   "omittedPaths": [],
