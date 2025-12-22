@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "英德计划",
+      "path": "04-旅游/清远/英德计划.md"
+    },
+    {
+      "basename": "出行计划_郴州",
+      "path": "04-旅游/郴州/出行计划_郴州.md"
+    },
+    {
+      "basename": "wb_2024-08-22 23.59.33.excalidraw",
+      "path": "04-旅游/郴州/wb_2024-08-22 23.59.33.excalidraw.md"
+    },
+    {
+      "basename": "250915旅行攻略",
+      "path": "04-旅游/25_09云南/250915旅行攻略.md"
+    },
+    {
       "basename": "MySQL 重点题库笔记",
       "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
     },
@@ -59,10 +75,6 @@
     {
       "basename": "未命名 3",
       "path": "未命名 3.md"
-    },
-    {
-      "basename": "250915旅行攻略",
-      "path": "04-旅游/25_09云南/250915旅行攻略.md"
     },
     {
       "basename": "Spring&SpringBoot",
@@ -187,18 +199,6 @@
     {
       "basename": "Java内存区域详解",
       "path": "01-学习/Java面试/JavaGuide/JVM专项/Java内存区域详解.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "01-学习/Java面试/JavaGuide/基础知识.md"
-    },
-    {
-      "basename": "笔记",
-      "path": "03-think/积极心理学/笔记.md"
-    },
-    {
-      "basename": "百度智能云Deepseek网页体验教程",
-      "path": "01-学习/百度智能云Deepseek网页体验教程.md"
     }
   ],
   "omittedPaths": [],
