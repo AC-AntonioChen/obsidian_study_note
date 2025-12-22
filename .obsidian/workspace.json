@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-学习/02_训练营/02_MySQL专项/知识点.md",
+                "file": "01-学习/02_训练营/02_MySQL专项/全量题库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "知识点"
+              "title": "全量题库"
             }
           },
           {
@@ -210,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-学习/02_训练营/02_MySQL专项/知识点.md",
+                "file": "01-学习/02_训练营/02_MySQL专项/全量题库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识点 的大纲"
+              "title": "全量题库 的大纲"
             }
           },
           {
@@ -274,8 +274,8 @@
   },
   "active": "b9547479ca40c01e",
   "lastOpenFiles": [
-    "01-学习/02_训练营/02_MySQL专项/全量题库.md",
     "01-学习/02_训练营/02_MySQL专项/知识点.md",
+    "01-学习/02_训练营/02_MySQL专项/全量题库.md",
     "01-学习/02_训练营/题目.md",
     "01-学习/02_训练营/Mysql库.md",
     "01-学习/02_训练营/redis库.md",
