@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "MySQL 题库笔记",
-      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 题库笔记.md"
+      "basename": "全量题库",
+      "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
+    },
+    {
+      "basename": "MySQL 重点题库笔记",
+      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
     },
     {
       "basename": "题目",
@@ -195,10 +199,6 @@
     {
       "basename": "百度智能云Deepseek网页体验教程",
       "path": "01-学习/百度智能云Deepseek网页体验教程.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "04-旅游/25_01春节/未命名.md"
     }
   ],
   "omittedPaths": [],
