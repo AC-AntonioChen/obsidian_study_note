@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "MySQL 重点题库笔记",
+      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
+    },
+    {
+      "basename": "Mysql库",
+      "path": "01-学习/02_训练营/Mysql库.md"
+    },
+    {
+      "basename": "场景应用",
+      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
+    },
+    {
       "basename": "全量题库",
       "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "题目",
       "path": "01-学习/02_训练营/题目.md"
-    },
-    {
-      "basename": "Mysql库",
-      "path": "01-学习/02_训练营/Mysql库.md"
     },
     {
       "basename": "redis库",
@@ -37,20 +45,12 @@
       "path": "04-旅游/25_09云南/250915旅行攻略.md"
     },
     {
-      "basename": "MySQL 重点题库笔记",
-      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
-    },
-    {
       "basename": "EXPLAIN 结果解析",
       "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
     },
     {
       "basename": "未命名 4",
       "path": "未命名 4.md"
-    },
-    {
-      "basename": "场景应用",
-      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
     },
     {
       "basename": "Redis_对象",
