@@ -163,8 +163,10 @@ ACID。
 （4）Duration  持久性：事务处理结束后，对数据的修改就是永久的，即使系统故障也不会丢失。
 ### 事务的隔离性如何保证?
 由MVCC(Multi-Version Concurrency Control，多版本并发控制)和锁保证的。
-例如RR（可重复读）的普通select （快照读）是通过
+例如RR（可重复读）的普通select （快照读）是通过MVVC保证事务隔离性。而当前读是（update）通过行级锁保障的。
+
 ### 事务的持久性如何保证？
+通过redolog，也就是WAL（Write-Ahead Logging，预写日志）
 ### 事务的原子性如何保证？
 ### MySQL 事务隔离级别有哪些？分别解决哪些问题？
 ### 脏读和幻读有什么区别?
