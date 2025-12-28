@@ -166,7 +166,8 @@ ACID。
 例如RR（可重复读）的普通select （快照读）是通过MVVC保证事务隔离性。而当前读是（update）通过行级锁保障的。
 
 ### 事务的持久性如何保证？
-通过redolog，也就是WAL（Write-Ahead Logging，预写日志）
+通过redolog，也就是WAL（Write-Ahead Logging，预写日志）。
+
 ### 事务的原子性如何保证？
 
 ### MySQL 事务隔离级别有哪些？分别解决哪些问题？
