@@ -168,7 +168,7 @@ ACID。
 ### 事务的持久性如何保证？
 通过redolog，也就是WAL（Write-Ahead Logging，预写日志）。
 在修改数据时，会将本次对数据页的修改先以redolog的方式记录下来，这时候更新就算完成了。
-而bufferpool的脏页会通过
+而bufferpool的脏页会通过后台线程进行刷盘
 ### 事务的原子性如何保证？
 
 ### MySQL 事务隔离级别有哪些？分别解决哪些问题？
