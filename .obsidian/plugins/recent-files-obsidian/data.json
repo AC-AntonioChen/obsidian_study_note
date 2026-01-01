@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "全量题库",
-      "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
-    },
-    {
-      "basename": "Mysql库",
-      "path": "01-学习/02_训练营/Mysql库.md"
-    },
-    {
       "basename": "题目",
       "path": "01-学习/02_训练营/题目.md"
+    },
+    {
+      "basename": "redis重点库",
+      "path": "01-学习/02_训练营/原始题库/redis重点库.md"
+    },
+    {
+      "basename": "Mysql全量原始库",
+      "path": "01-学习/02_训练营/原始题库/Mysql全量原始库.md"
+    },
+    {
+      "basename": "全量题库",
+      "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
     },
     {
       "basename": "MySQL 重点题库笔记",
@@ -23,10 +27,6 @@
     {
       "basename": "知识点",
       "path": "01-学习/02_训练营/02_MySQL专项/知识点.md"
-    },
-    {
-      "basename": "redis库",
-      "path": "01-学习/02_训练营/redis库.md"
     },
     {
       "basename": "英德计划",
