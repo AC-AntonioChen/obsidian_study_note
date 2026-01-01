@@ -279,7 +279,8 @@ Innodb加锁是索引加锁。
 ### MySQL 有哪些日志？有什么区别?
 undolog redolog跟binlog。
 （1）undolog是innodb存储引擎层的。是逻辑日志。innodb会记录更新前的数据到undolog中，事务回滚时用undolog恢复。因此undolog是保障事务原子性的，此外也和锁一起用于支撑MVCC的实现。
-（2）redolog是innodb存储引擎层的。是物理日志。具体记录了某个数据页做了什么修改。实现了事务的持久性。主要用于服务器掉电后的故障恢复。比如事务提交后，脏页数据还没刷盘
+（2）redolog是innodb存储引擎层的。是物理日志。具体记录了某个数据页做了什么修改。实现了事务的持久性。主要用于服务器掉电后的故障恢复。
+比如事务提交后，脏页数据还没刷盘。如果此时断电了，脏页的数据就丢失了，而mysql
 （3）binlog是server层的。
 ### `redo log` 和 `binlog` 的区别和应用场景?
 ### `redo log` 是怎么实现持久化的?
