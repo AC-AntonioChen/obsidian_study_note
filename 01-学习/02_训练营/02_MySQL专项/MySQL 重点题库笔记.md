@@ -286,10 +286,18 @@ undolog redolog跟binlog。
 redolog是innodb存储引擎的物理日志。主要用于崩溃恢复。是一块循环写的用于救急的日志。
 binlog则是server层的对数据库的增删改的操作日志。是追加写的。主要用于数据库备份和归档，也用于主从复制。binlog有三种日志格式，可能是sql，数据本身或者两者混合。
 ### 6.3 `redo log` 是怎么实现持久化的?
-redolog保存的内容是物理日志，记录了innodb对某个数据页的修改操作，
+redolog保存的内容是物理日志，记录了innodb对某个数据页的修改操作，当事务提交时，redolog会先刷入磁盘，因为redolog保存了数据页的修改操作，即使脏页数据没有刷盘时 数据库宕机了，重启后mysql通过重放redolog就能恢复未刷盘的脏页，从而保障数据持久化。
 ### 6.4 为什么事务提交需要两阶段提交？
-### 6.5 两阶段提交的过程是怎样的？
 
+### 6.5 两阶段提交的过程是怎样的？
+![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20260101225732.png)
+两阶段提交把事务提交拆分成两个阶段，分别是准备阶段跟提交阶段。
+- 准备阶段会把redolog状态置为prepare状态，然后将redolog刷入磁盘。
+- 提交阶段会将binlog刷入磁盘，然后设置redolog为commit状态，完成两阶段提交。
+
+在两阶段提交中 是以binlog刷入磁盘时机作为事务提交成功的标志的。
+- 如果binlog没刷入磁盘，mysql就崩溃了，mysql重启时需要回滚事务
+- 如果binlog刷入了磁盘，即使redolog没
 ## 7 性能优化
 ### 7.1 怎么找到慢 SQL?
 ### 7.2 如何优化慢 SQL?
