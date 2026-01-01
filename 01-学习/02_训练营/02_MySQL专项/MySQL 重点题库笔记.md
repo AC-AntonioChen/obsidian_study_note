@@ -288,7 +288,7 @@ binlog则是server层的对数据库的增删改的操作日志。是追加写�
 ### 6.3 `redo log` 是怎么实现持久化的?
 redolog保存的内容是物理日志，记录了innodb对某个数据页的修改操作，当事务提交时，redolog会先刷入磁盘，因为redolog保存了数据页的修改操作，即使脏页数据没有刷盘时 数据库宕机了，重启后mysql通过重放redolog就能恢复未刷盘的脏页，从而保障数据持久化。
 ### 6.4 为什么事务提交需要两阶段提交？
-
+保障redolog和binlog逻辑一致，从而保证主从复制时不会出现数据不一致的情况
 ### 6.5 两阶段提交的过程是怎样的？
 ![image.png](https://picgo-1324195593.cos.ap-guangzhou.myqcloud.com/picgo/20260101225732.png)
 两阶段提交把事务提交拆分成两个阶段，分别是准备阶段跟提交阶段。
@@ -297,7 +297,7 @@ redolog保存的内容是物理日志，记录了innodb对某个数据页的修�
 
 在两阶段提交中 是以binlog刷入磁盘时机作为事务提交成功的标志的。
 - 如果binlog没刷入磁盘，mysql就崩溃了，mysql重启时需要回滚事务
-- 如果binlog刷入了磁盘，即使redolog没
+- 如果binlog刷入了磁盘，即使redolog没设置为commit，mysql重启时也会提交事务。
 ## 7 性能优化
 ### 7.1 怎么找到慢 SQL?
 ### 7.2 如何优化慢 SQL?
