@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "b45f5e8e7b55a4a0",
@@ -273,14 +272,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "de6acb262228decf",
+  "active": "b9547479ca40c01e",
   "lastOpenFiles": [
-    "01-学习/02_训练营/02_MySQL专项/全量题库.md",
-    "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
     "01-学习/02_训练营/Mysql库.md",
+    "01-学习/02_训练营/题目.md",
+    "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
+    "01-学习/02_训练营/02_MySQL专项/全量题库.md",
     "01-学习/02_训练营/01_redis专项/场景应用.md",
     "01-学习/02_训练营/02_MySQL专项/知识点.md",
-    "01-学习/02_训练营/题目.md",
     "01-学习/02_训练营/redis库.md",
     "04-旅游/清远/英德计划.md",
     "04-旅游/郴州/出行计划_郴州.md",
