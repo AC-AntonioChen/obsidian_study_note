@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "题目",
-      "path": "01-学习/02_训练营/题目.md"
+      "basename": "MySQL 重点题库笔记",
+      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
+    },
+    {
+      "basename": "EXPLAIN 结果解析",
+      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
+    },
+    {
+      "basename": "知识点",
+      "path": "01-学习/02_训练营/02_MySQL专项/知识点.md"
+    },
+    {
+      "basename": "重点题库",
+      "path": "01-学习/02_训练营/02_MySQL专项/重点题库.md"
+    },
+    {
+      "basename": "题目练习记录",
+      "path": "01-学习/02_训练营/题目练习记录.md"
     },
     {
       "basename": "redis重点库",
@@ -13,20 +29,8 @@
       "path": "01-学习/02_训练营/原始题库/Mysql全量原始库.md"
     },
     {
-      "basename": "全量题库",
-      "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
-    },
-    {
-      "basename": "MySQL 重点题库笔记",
-      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
-    },
-    {
       "basename": "场景应用",
       "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
-    },
-    {
-      "basename": "知识点",
-      "path": "01-学习/02_训练营/02_MySQL专项/知识点.md"
     },
     {
       "basename": "英德计划",
@@ -43,10 +47,6 @@
     {
       "basename": "250915旅行攻略",
       "path": "04-旅游/25_09云南/250915旅行攻略.md"
-    },
-    {
-      "basename": "EXPLAIN 结果解析",
-      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
     },
     {
       "basename": "未命名 4",
