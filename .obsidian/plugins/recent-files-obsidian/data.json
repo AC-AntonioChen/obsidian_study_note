@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "MySQL 重点题库笔记",
+      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
+    },
+    {
+      "basename": "重点题库",
+      "path": "01-学习/02_训练营/02_MySQL专项/重点题库.md"
+    },
+    {
+      "basename": "EXPLAIN 结果解析",
+      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
+    },
+    {
+      "basename": "Redis_对象",
+      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
+    },
+    {
       "basename": "背诵",
       "path": "09-其他/教师资格证/301/背诵.md"
     },
@@ -17,20 +33,8 @@
       "path": "04-旅游/25_09云南/2510 云南.md"
     },
     {
-      "basename": "MySQL 重点题库笔记",
-      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
-    },
-    {
-      "basename": "EXPLAIN 结果解析",
-      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
-    },
-    {
       "basename": "知识点",
       "path": "01-学习/02_训练营/02_MySQL专项/知识点.md"
-    },
-    {
-      "basename": "重点题库",
-      "path": "01-学习/02_训练营/02_MySQL专项/重点题库.md"
     },
     {
       "basename": "题目练习记录",
@@ -63,10 +67,6 @@
     {
       "basename": "250915旅行攻略",
       "path": "04-旅游/25_09云南/250915旅行攻略.md"
-    },
-    {
-      "basename": "Redis_对象",
-      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
     },
     {
       "basename": "Redis的单线程和多线程执行过程",
