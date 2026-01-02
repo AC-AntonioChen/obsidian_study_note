@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Mysql全量原始库_260102",
+      "path": "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md"
+    },
+    {
+      "basename": "Mysql全量原始库",
+      "path": "01-学习/02_训练营/原始题库/Mysql全量原始库.md"
+    },
+    {
+      "basename": "redis重点库",
+      "path": "01-学习/02_训练营/原始题库/redis重点库.md"
+    },
+    {
       "basename": "MySQL 重点题库笔记",
       "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
     },
@@ -39,14 +51,6 @@
     {
       "basename": "题目练习记录",
       "path": "01-学习/02_训练营/题目练习记录.md"
-    },
-    {
-      "basename": "redis重点库",
-      "path": "01-学习/02_训练营/原始题库/redis重点库.md"
-    },
-    {
-      "basename": "Mysql全量原始库",
-      "path": "01-学习/02_训练营/原始题库/Mysql全量原始库.md"
     },
     {
       "basename": "场景应用",

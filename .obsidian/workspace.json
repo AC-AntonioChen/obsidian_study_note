@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
+                "file": "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL 重点题库笔记"
+              "title": "Mysql全量原始库_260102"
             }
           }
         ],
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "b45f5e8e7b55a4a0",
@@ -258,11 +259,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "de1f1dceae6942eb",
+  "active": "bd5964363974f3dd",
   "lastOpenFiles": [
+    "01-学习/02_训练营/原始题库/Mysql全量原始库.md",
+    "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md",
+    "01-学习/02_训练营/原始题库/redis重点库.md",
+    "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
     "01-学习/02_训练营/02_MySQL专项/练习记录",
     "01-学习/02_训练营/02_MySQL专项/重点题库.md",
-    "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
     "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md",
     "01-学习/02_训练营/01_redis专项/Redis_对象.md",
     "09-其他/教师资格证/301/背诵.md",
@@ -281,8 +285,6 @@
     "未命名.md",
     "01-学习/02_训练营/02_MySQL专项/知识点.md",
     "01-学习/02_训练营/题目练习记录.md",
-    "01-学习/02_训练营/原始题库/redis重点库.md",
-    "01-学习/02_训练营/原始题库/Mysql全量原始库.md",
     "01-学习/02_训练营/原始题库",
     "01-学习/02_训练营/01_redis专项/场景应用.md",
     "04-旅游/清远/英德计划.md",
@@ -296,7 +298,6 @@
     "09-其他/附件存储/Camera_1040g3k831lrsfkl0l87g5nfjk6cg8frjjvruu5g.jpg",
     "04-旅游/25_09云南",
     "study-note",
-    "00-代办/技术面试题250418",
     "09-其他/附件存储/Pasted Image 20240719005852_909.jpg",
     "09-其他/附件存储/Pasted Image 20240929234111_707.png",
     "09-其他/附件存储/Pasted Image 20240923222621_974.png",
