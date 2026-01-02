@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java并发",
+      "path": "00-代办/技术面试题250418/Java并发.md"
+    },
+    {
       "basename": "Mysql全量原始库_260102",
       "path": "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "Java基础",
       "path": "00-代办/技术面试题250418/Java基础.md"
-    },
-    {
-      "basename": "Java并发",
-      "path": "00-代办/技术面试题250418/Java并发.md"
     },
     {
       "basename": "计网",
