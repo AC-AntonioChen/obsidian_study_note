@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "b45f5e8e7b55a4a0",
@@ -258,7 +259,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "de1f1dceae6942eb",
+  "active": "bd5964363974f3dd",
   "lastOpenFiles": [
     "1.xmind",
     "01-学习/02_训练营/原始题库/Mysql全量原始库.md",
