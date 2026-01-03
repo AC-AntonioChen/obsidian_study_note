@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Mysql全量原始库_260102",
+      "path": "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md"
+    },
+    {
+      "basename": "MySQL 重点题库笔记",
+      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
+    },
+    {
+      "basename": "Redis_对象",
+      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
+    },
+    {
+      "basename": "背诵",
+      "path": "09-其他/教师资格证/301/背诵.md"
+    },
+    {
+      "basename": "EXPLAIN 结果解析",
+      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
+    },
+    {
       "basename": "知识点",
       "path": "01-学习/02_训练营/02_MySQL专项/知识点.md"
     },
     {
       "basename": "Java并发",
       "path": "00-代办/技术面试题250418/Java并发.md"
-    },
-    {
-      "basename": "Mysql全量原始库_260102",
-      "path": "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md"
     },
     {
       "basename": "Mysql全量原始库",
@@ -21,24 +37,8 @@
       "path": "01-学习/02_训练营/原始题库/redis重点库.md"
     },
     {
-      "basename": "MySQL 重点题库笔记",
-      "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
-    },
-    {
       "basename": "重点题库",
       "path": "01-学习/02_训练营/02_MySQL专项/重点题库.md"
-    },
-    {
-      "basename": "EXPLAIN 结果解析",
-      "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
-    },
-    {
-      "basename": "Redis_对象",
-      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
-    },
-    {
-      "basename": "背诵",
-      "path": "09-其他/教师资格证/301/背诵.md"
     },
     {
       "basename": "()",
