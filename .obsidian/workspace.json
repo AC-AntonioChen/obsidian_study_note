@@ -147,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "b45f5e8e7b55a4a0",
@@ -273,8 +272,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "95f5f83b3eece7fa",
+  "active": "de1f1dceae6942eb",
   "lastOpenFiles": [
+    "未命名 1",
     "01-学习/02_训练营/02_MySQL专项/练习记录/Mysql全量原始库_260102.md",
     "01-学习/02_训练营/03_kafka/知识点.md",
     "01-学习/02_训练营/03_kafka",
@@ -305,11 +305,9 @@
     "01-学习/02_训练营/题目练习记录.md",
     "01-学习/02_训练营/原始题库",
     "01-学习/02_训练营/01_redis专项/场景应用.md",
-    "04-旅游/清远/英德计划.md",
     "未命名 3",
     "01-学习/02_训练营/02_MySQL专项",
     "未命名 2",
-    "未命名 1",
     "01-学习/02_训练营/01_redis专项",
     "09-其他/附件存储/Camera_1040g3k831lrsfkl0l87g5nfjk6cg8frjjvruu5g.jpg",
     "09-其他/附件存储/Pasted Image 20240719005852_909.jpg",
