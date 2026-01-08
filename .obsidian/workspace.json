@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "b45f5e8e7b55a4a0",
@@ -196,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
+                "file": "01-学习/02_训练营/02_MySQL专项/全量题库解析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MySQL 重点题库笔记 的大纲"
+              "title": "全量题库解析 的大纲"
             }
           },
           {
@@ -236,12 +237,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,7 +258,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd5964363974f3dd",
+  "active": "c4c59306f6ace020",
   "lastOpenFiles": [
     "01-学习/02_训练营/02_MySQL专项/全量题库.md",
     "01-学习/02_训练营/02_MySQL专项/全量题库解析.md",
