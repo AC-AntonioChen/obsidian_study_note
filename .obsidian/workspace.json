@@ -57,30 +57,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-学习/02_训练营/02_MySQL专项/知识点.md",
+                "file": "未命名 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "知识点"
-            }
-          },
-          {
-            "id": "2646512e911548c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "未命名 1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -272,10 +258,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2646512e911548c6",
+  "active": "bd5964363974f3dd",
   "lastOpenFiles": [
-    "01-学习/02_训练营/03_kafka/知识点.md",
+    "01-学习/02_训练营/02_MySQL专项/知识点.md",
     "conflict-files-obsidian-git.md",
+    "01-学习/02_训练营/03_kafka/知识点.md",
     "未命名.md",
     "未命名 5.md",
     "未命名 4.md",
@@ -300,7 +287,6 @@
     "01-学习/02_训练营/01_redis专项/Redis_对象.md",
     "09-其他/教师资格证/301/背诵.md",
     "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md",
-    "01-学习/02_训练营/02_MySQL专项/知识点.md",
     "1.xmind",
     "01-学习/02_训练营/原始题库/Mysql全量原始库.md",
     "01-学习/02_训练营/原始题库/redis重点库.md",
