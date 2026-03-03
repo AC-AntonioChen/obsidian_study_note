@@ -64,9 +64,21 @@
               "icon": "lucide-file",
               "title": "未命名 2"
             }
+          },
+          {
+            "id": "789a1f281b65dd40",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -244,7 +256,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "digitalgarden:Digital Garden Publication Center": false,
       "switcher:打开快速切换": false,
@@ -257,7 +269,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd5964363974f3dd",
+  "active": "789a1f281b65dd40",
   "lastOpenFiles": [
     "01-学习/02_训练营/02_MySQL专项/全量题库解析.md",
     "未命名 2",
