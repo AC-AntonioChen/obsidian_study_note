@@ -208,13 +208,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-学习/面试学习导读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面试学习导读 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -252,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
