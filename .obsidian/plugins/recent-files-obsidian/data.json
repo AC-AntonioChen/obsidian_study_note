@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "面试学习导读",
+      "path": "01-学习/面试学习导读.md"
+    },
+    {
+      "basename": "Deepseek r1（openrouter）使用教程",
+      "path": "01-学习/Deepseek r1（openrouter）使用教程.md"
+    },
+    {
       "basename": "全量题库解析",
       "path": "01-学习/02_训练营/02_MySQL专项/全量题库解析.md"
     },
@@ -157,10 +165,6 @@
       "path": "未命名.md"
     },
     {
-      "basename": "Deepseek r1（openrouter）使用教程",
-      "path": "01-学习/Deepseek r1（openrouter）使用教程.md"
-    },
-    {
       "basename": "元数据",
       "path": "01-学习/01_Java笔记/01_JVM/元数据.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "从 BUG 入手：Java 基础修炼 - LeetBook - 力扣（LeetCode）全球极客挚爱的技术成长平台",
       "path": "Clippings/从 BUG 入手：Java 基础修炼 - LeetBook - 力扣（LeetCode）全球极客挚爱的技术成长平台.md"
-    },
-    {
-      "basename": "知识点",
-      "path": "01-学习/Java面试/知识点.md"
     }
   ],
   "omittedPaths": [],

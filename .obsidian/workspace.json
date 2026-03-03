@@ -69,12 +69,14 @@
             "id": "789a1f281b65dd40",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "01-学习/面试学习导读.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.7"
+              "icon": "lucide-file",
+              "title": "面试学习导读"
             }
           }
         ],
@@ -208,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 2.md",
+                "file": "01-学习/面试学习导读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 2 的大纲"
+              "title": "面试学习导读 的大纲"
             }
           },
           {
@@ -271,6 +273,8 @@
   },
   "active": "789a1f281b65dd40",
   "lastOpenFiles": [
+    "01-学习/Deepseek r1（openrouter）使用教程.md",
+    "01-学习/面试学习导读.md",
     "01-学习/02_训练营/02_MySQL专项/全量题库解析.md",
     "未命名 2",
     "01-学习/02_训练营/02_MySQL专项/全量题库.md",
@@ -299,7 +303,6 @@
     "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
     "01-学习/02_训练营/01_redis专项/Redis_对象.md",
     "09-其他/教师资格证/301/背诵.md",
-    "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md",
     "1.xmind",
     "01-学习/02_训练营/02_MySQL专项/练习记录",
     "01-学习/02_训练营/原始题库",
