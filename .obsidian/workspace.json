@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-学习/02_训练营/04_Java/Java集合.md",
+                "file": "01-学习/02_训练营/04_Java/JVM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java集合"
+              "title": "JVM"
             }
           }
         ],
@@ -273,13 +273,13 @@
   },
   "active": "180cea074d7c569f",
   "lastOpenFiles": [
+    "01-学习/02_训练营/04_Java/Java并发编程.md",
+    "01-学习/02_训练营/04_Java/JVM.md",
+    "01-学习/02_训练营/04_Java/Java集合.md",
     "01-学习/02_训练营/04_Java/Java基础.md",
     "01-学习/02_训练营/04_Java/SpringCloud.md",
     "01-学习/02_训练营/04_Java/SSM.md",
-    "01-学习/02_训练营/04_Java/JVM.md",
     "01-学习/02_训练营/04_Java/多线程编程题.md",
-    "01-学习/02_训练营/04_Java/Java并发编程.md",
-    "01-学习/02_训练营/04_Java/Java集合.md",
     "01-学习/02_训练营/03_分布式/分布式题单.md",
     "01-学习/02_训练营/04_Java",
     "01-学习/02_训练营/03_分布式",

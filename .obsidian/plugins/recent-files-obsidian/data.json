@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "JVM",
+      "path": "01-学习/02_训练营/04_Java/JVM.md"
+    },
+    {
       "basename": "Java并发编程",
       "path": "01-学习/02_训练营/04_Java/Java并发编程.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "SSM",
       "path": "01-学习/02_训练营/04_Java/SSM.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "01-学习/02_训练营/04_Java/JVM.md"
     },
     {
       "basename": "多线程编程题",
