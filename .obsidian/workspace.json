@@ -69,12 +69,14 @@
             "id": "180cea074d7c569f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "01-学习/02_训练营/03_分布式/分布式题单.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.4"
+              "icon": "lucide-file",
+              "title": "分布式题单"
             }
           }
         ],
@@ -271,6 +273,8 @@
   },
   "active": "180cea074d7c569f",
   "lastOpenFiles": [
+    "01-学习/02_训练营/03_分布式/分布式题单.md",
+    "01-学习/02_训练营/03_分布式",
     "未命名 2.md",
     "01-学习/面试学习导读.md",
     "01-学习/Deepseek r1（openrouter）使用教程.md",
@@ -300,13 +304,11 @@
     "未命名",
     "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md",
     "01-学习/02_训练营/01_redis专项/Redis_对象.md",
-    "09-其他/教师资格证/301/背诵.md",
     "1.xmind",
     "01-学习/02_训练营/02_MySQL专项/练习记录",
     "01-学习/02_训练营/原始题库",
     "未命名 3",
     "01-学习/02_训练营/02_MySQL专项",
-    "01-学习/02_训练营/01_redis专项",
     "09-其他/附件存储/Camera_1040g3k831lrsfkl0l87g5nfjk6cg8frjjvruu5g.jpg",
     "09-其他/附件存储/Pasted Image 20240719005852_909.jpg",
     "09-其他/附件存储/Pasted Image 20240929234111_707.png",
