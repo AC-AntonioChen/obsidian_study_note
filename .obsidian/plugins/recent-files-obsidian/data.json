@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Java集合",
+      "path": "01-学习/02_训练营/04_Java/Java集合.md"
+    },
+    {
+      "basename": "Java基础",
+      "path": "01-学习/02_训练营/04_Java/Java基础.md"
+    },
+    {
       "basename": "分布式题单",
       "path": "01-学习/02_训练营/03_分布式/分布式题单.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "微服务各层常用技术组件",
       "path": "01-学习/01_Java笔记/知识图谱/微服务各层常用技术组件.md"
-    },
-    {
-      "basename": "Java 8系列之重新认识HashMap",
-      "path": "Clippings/Java 8系列之重新认识HashMap.md"
-    },
-    {
-      "basename": "wb_2025-03-30 23.50.22.excalidraw",
-      "path": "01-学习/01_Java笔记/知识图谱/wb_2025-03-30 23.50.22.excalidraw.md"
     }
   ],
   "omittedPaths": [],
