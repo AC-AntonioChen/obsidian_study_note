@@ -75,5 +75,14 @@
       ],
       "key": "N"
     }
+  ],
+  "obsidian-global-hotkeys:show-hide": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
   ]
 }
