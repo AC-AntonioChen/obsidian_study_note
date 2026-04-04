@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java基础",
+      "path": "01-学习/02_训练营/00_opencode/Java/Java基础.md"
+    },
+    {
       "basename": "题库 1",
       "path": "01-学习/02_训练营/00_opencode/Redis/题库 1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "面试题草稿",
       "path": "00-代办/面试题草稿.md"
-    },
-    {
-      "basename": "2024-06-02",
-      "path": "2024-06-02.md"
     }
   ],
   "omittedPaths": [],
