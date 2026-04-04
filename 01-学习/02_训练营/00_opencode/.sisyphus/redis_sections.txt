@@ -1,0 +1,53 @@
+[认识Redis] (4题)
+  redis-1: 什么是Redis?
+  redis-2: 使用 Redis 有哪些好处?
+  redis-3: 为什么MySQL做存储，Redis做缓存？
+  ... 还有1题
+
+[Redis数据对象] (31题)
+  redis-5: Redis 的数据类型有哪些？
+  redis-6: Redis有哪些底层数据结构?
+  redis-7: Set一个已有的数据会发生什么？
+  ... 还有28题
+
+[Redis执行] (7题)
+  redis-36: Redis是单线程还是多线程?
+  redis-37: Redis为什么选择单线程做核心处理?
+  redis-38: Redis单线程性能如何？
+  ... 还有4题
+
+[Redis持久化] (17题)
+  redis-43: RDB和AOF本质区别是什么？
+  redis-44: 如果RDB和AOF只能选一种，你选哪个？
+  redis-45: 介绍一下AOF的三种写回策略？
+  ... 还有14题
+
+[Redis过期删除策略和内存淘汰策略] (6题)
+  redis-60: Redis是怎么删除过期 key的?
+  redis-61: Redis有几种内存回收策略?
+  redis-62: 内存回收是什么时候发起?
+  ... 还有3题
+
+[Redis场景] (18题)
+  redis-66: 你有实际使用过Redis做什么应用么？
+  redis-67: Redis缓存是如何应用的？
+  redis-68: Redis经常作为MySQL的缓存来使用，为什么？
+  ... 还有15题
+
+[Redis 分布式锁] (15题)
+  redis-84: 什么是分布式锁？
+  redis-85: 如何理解Redis原子性操作原理？
+  redis-86: 分布式锁实现要点是什么（加锁、解锁、过期）？
+  ... 还有12题
+
+[Redis 缓存异常] (5题)
+  redis-99: 缓存穿透是什么？怎么解决？
+  redis-100: 布隆过滤器是怎么工作的？
+  redis-101: 布隆过滤器有什么缺陷？
+  ... 还有2题
+
+[Redis集群] (22题)
+  redis-104: Redis 集群架构模式有哪几种？
+  redis-105: Redis主从复制过程是怎样的?
+  redis-106: Redis的主从复制模式有什么优缺点？
+  ... 还有19题
