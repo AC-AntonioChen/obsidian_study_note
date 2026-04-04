@@ -152,43 +152,37 @@
       "question_id": "redis-101",
       "answer": "布隆过滤器只能确定元素是否不存在，不能确定元素一定存在",
       "score": 2,
-      "feedback": "说对了假阳性问题，但漏了：不能删除元素、误判率随元素增加而上升、哈希函数选择影响误判率、容量需提前规划",
-      "attempted_at": "2026-04-04 15:36"
+      "feedback": "说对了假阳性，但漏了：不能删除、误判率随元素增加上升、哈希函数选择影响误判率、容量需提前规划"
     },
     {
       "question_id": "redis-39",
-      "answer": "Redis单线程快的原因主要是瓶颈不在IO操作或线程处理逻辑，主要瓶颈在CPU，多线程帮助不大",
+      "answer": "瓶颈在CPU，多线程帮助不大",
       "score": 1,
-      "feedback": "说反了。Redis快的原因：数据全在内存无磁盘IO；单线程避免上下文切换和锁竞争；IO多路复用epoll处理网络请求；瓶颈在网络IO而非CPU",
-      "attempted_at": "2026-04-04 15:36"
+      "feedback": "说反了。快因为：全内存无磁盘IO、单线程避免上下文切换和锁竞争、IO多路复用epoll。瓶颈在网络IO而非CPU"
     },
     {
       "question_id": "redis-40",
       "answer": "忘记了",
       "score": 0,
-      "feedback": "Redis 6.0多线程只用于网络IO（读请求、写响应），命令执行仍然是单线程。因为硬件升级后网络IO成了新瓶颈",
-      "attempted_at": "2026-04-04 15:36"
+      "feedback": "Redis 6.0多线程只用于网络IO读写和协议解析，命令执行仍单线程。硬件升级后网络IO成新瓶颈"
     },
     {
       "question_id": "java_collections-15",
-      "answer": "ArrayList适合插入多的场景，LinkedList适合查询多",
+      "answer": "ArrayList适合插入多，LinkedList适合查询多",
       "score": 1,
-      "feedback": "完全说反了。ArrayList基于数组，随机访问O(1)适合查询多；LinkedList基于双向链表，头插/头删O(1)适合频繁插入删除",
-      "attempted_at": "2026-04-04 15:36"
+      "feedback": "完全说反。ArrayList数组实现O(1)随机访问适合查询；LinkedList链表O(1)头插删适合频繁插入删除"
     },
     {
       "question_id": "java_collections-26",
-      "answer": "poll是队尾元素出栈，remove是直接移除某个位置的元素",
+      "answer": "poll队尾出栈，remove移除某位置",
       "score": 0,
-      "feedback": "全错。两者都从队头取元素。区别：poll()空队列返回null，remove()空队列抛NoSuchElementException",
-      "attempted_at": "2026-04-04 15:36"
+      "feedback": "全错。都从队头取。区别：poll空队列返回null，remove空队列抛NoSuchElementException"
     },
     {
       "question_id": "java_basics-40",
       "answer": "抽象，多态，继承",
       "score": 2,
-      "feedback": "标准答案是封装、继承、多态。漏了最核心的封装，多了抽象",
-      "attempted_at": "2026-04-04 15:36"
+      "feedback": "标准答案：封装、继承、多态。漏了最核心的封装，多了抽象"
     }
   ],
   "skipped_questions": [
@@ -219,9 +213,24 @@
     "max_score": 30,
     "percentage": 20.0,
     "module_scores": {
-      "redis": {"answered": 3, "score": 3, "max": 15, "avg": 1.0},
-      "java_collections": {"answered": 2, "score": 1, "max": 10, "avg": 0.5},
-      "java_basics": {"answered": 1, "score": 2, "max": 5, "avg": 2.0}
+      "redis": {
+        "answered": 3,
+        "score": 3,
+        "max": 15,
+        "avg": 1.0
+      },
+      "java_collections": {
+        "answered": 2,
+        "score": 1,
+        "max": 10,
+        "avg": 0.5
+      },
+      "java_basics": {
+        "answered": 1,
+        "score": 2,
+        "max": 5,
+        "avg": 2.0
+      }
     }
   },
   "started": "2026-04-04 15:36:18",

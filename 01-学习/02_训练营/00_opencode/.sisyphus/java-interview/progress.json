@@ -1,44 +1,44 @@
-﻿{
+{
   "version": "1.0.0",
   "created": "2026-04-04",
   "candidate": {
     "experience_years": 3,
     "target_level": "Java中高级工程师",
-    "last_exam_date": null,
-    "total_exams_taken": 0
+    "last_exam_date": "2026-04-04 15:45:00",
+    "total_exams_taken": 1
   },
   "modules": {
     "redis": {
       "name": "Redis",
       "source_file": "Redis/题库 1.md",
       "total_questions": 125,
-      "answered": 0,
+      "answered": 3,
       "correct": 0,
-      "avg_score": 0,
-      "mastery_level": "untested",
-      "last_reviewed": null,
+      "avg_score": 1.0,
+      "mastery_level": "weak",
+      "last_reviewed": "2026-04-04 15:45:00",
       "weak_topics": []
     },
     "java_collections": {
       "name": "Java集合",
       "source_file": "Java/Java集合.md",
       "total_questions": 52,
-      "answered": 0,
+      "answered": 2,
       "correct": 0,
-      "avg_score": 0,
-      "mastery_level": "untested",
-      "last_reviewed": null,
+      "avg_score": 0.5,
+      "mastery_level": "weak",
+      "last_reviewed": "2026-04-04 15:45:00",
       "weak_topics": []
     },
     "java_basics": {
       "name": "Java基础",
       "source_file": "Java/Java基础.md",
       "total_questions": 82,
-      "answered": 0,
+      "answered": 1,
       "correct": 0,
-      "avg_score": 0,
-      "mastery_level": "untested",
-      "last_reviewed": null,
+      "avg_score": 2.0,
+      "mastery_level": "needs_improvement",
+      "last_reviewed": "2026-04-04 15:45:00",
       "weak_topics": []
     },
     "spring_cloud": {
@@ -121,10 +121,10 @@
   },
   "overall": {
     "total_questions": 771,
-    "total_answered": 0,
-    "overall_avg_score": 0,
-    "readiness_level": "未评估",
-    "readiness_percentage": 0
+    "total_answered": 6,
+    "overall_avg_score": 1.0,
+    "readiness_level": "严重不足",
+    "readiness_percentage": 20.0
   },
   "scoring_standard": {
     "0": "完全不会/概念错误",
@@ -135,7 +135,12 @@
     "5": "能举一反三，讲清底层原理+边界场景"
   },
   "pass_criteria": {
-    "core_modules": ["concurrency", "jvm", "mysql", "redis"],
+    "core_modules": [
+      "concurrency",
+      "jvm",
+      "mysql",
+      "redis"
+    ],
     "core_avg_required": 3.5,
     "other_avg_required": 3.0
   }

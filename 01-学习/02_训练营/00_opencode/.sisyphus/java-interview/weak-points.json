@@ -1,10 +1,72 @@
-﻿{
+{
   "version": "1.0.0",
   "description": "薄弱知识点追踪 - 持续积累答错/答不好的知识点",
-  "weak_points": [],
-  "review_queue": [],
+  "weak_points": [
+    {
+      "question_id": "redis-101",
+      "topic": "说对了假阳性，但漏了：不能删除、误判率随元素增加上升、哈希函数选择影响误判率、容量需提前规划",
+      "score": 2,
+      "feedback": "说对了假阳性，但漏了：不能删除、误判率随元素增加上升、哈希函数选择影响误判率、容量需提前规划",
+      "identified_date": "2026-04-04 15:45:00",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "redis-39",
+      "topic": "说反了",
+      "score": 1,
+      "feedback": "说反了。快因为：全内存无磁盘IO、单线程避免上下文切换和锁竞争、IO多路复用epoll。瓶颈在网络IO而非CPU",
+      "identified_date": "2026-04-04 15:45:00",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "redis-40",
+      "topic": "Redis 6.0多线程只用于网络IO读写和协议解析，命令执行仍单线程",
+      "score": 0,
+      "feedback": "Redis 6.0多线程只用于网络IO读写和协议解析，命令执行仍单线程。硬件升级后网络IO成新瓶颈",
+      "identified_date": "2026-04-04 15:45:00",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "java_collections-15",
+      "topic": "完全说反",
+      "score": 1,
+      "feedback": "完全说反。ArrayList数组实现O(1)随机访问适合查询；LinkedList链表O(1)头插删适合频繁插入删除",
+      "identified_date": "2026-04-04 15:45:00",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "java_collections-26",
+      "topic": "全错",
+      "score": 0,
+      "feedback": "全错。都从队头取。区别：poll空队列返回null，remove空队列抛NoSuchElementException",
+      "identified_date": "2026-04-04 15:45:00",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "java_basics-40",
+      "topic": "标准答案：封装、继承、多态",
+      "score": 2,
+      "feedback": "标准答案：封装、继承、多态。漏了最核心的封装，多了抽象",
+      "identified_date": "2026-04-04 15:45:00",
+      "resolved": false,
+      "review_count": 0
+    }
+  ],
+  "review_queue": [
+    "redis-101",
+    "redis-39",
+    "redis-40",
+    "java_collections-15",
+    "java_collections-26",
+    "java_basics-40"
+  ],
   "statistics": {
-    "total_weak_points_identified": 0,
+    "total_weak_points_identified": 6,
     "total_weak_points_resolved": 0,
     "resolution_rate": 0
   }

@@ -1,7 +1,267 @@
-﻿{
+{
   "version": "1.0.0",
   "description": "艾宾浩斯复习计划 - 基于遗忘曲线的复习调度",
-  "review_intervals_days": [1, 2, 4, 7, 15, 30],
-  "scheduled_reviews": [],
+  "review_intervals_days": [
+    1,
+    2,
+    4,
+    7,
+    15,
+    30
+  ],
+  "scheduled_reviews": [
+    {
+      "question_id": "redis-101",
+      "review_round": 1,
+      "scheduled_date": "2026-04-05",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "redis-101",
+      "review_round": 2,
+      "scheduled_date": "2026-04-06",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "redis-101",
+      "review_round": 3,
+      "scheduled_date": "2026-04-08",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "redis-101",
+      "review_round": 4,
+      "scheduled_date": "2026-04-11",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "redis-101",
+      "review_round": 5,
+      "scheduled_date": "2026-04-19",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "redis-101",
+      "review_round": 6,
+      "scheduled_date": "2026-05-04",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "redis-39",
+      "review_round": 1,
+      "scheduled_date": "2026-04-05",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "redis-39",
+      "review_round": 2,
+      "scheduled_date": "2026-04-06",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "redis-39",
+      "review_round": 3,
+      "scheduled_date": "2026-04-08",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "redis-39",
+      "review_round": 4,
+      "scheduled_date": "2026-04-11",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "redis-39",
+      "review_round": 5,
+      "scheduled_date": "2026-04-19",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "redis-39",
+      "review_round": 6,
+      "scheduled_date": "2026-05-04",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "redis-40",
+      "review_round": 1,
+      "scheduled_date": "2026-04-05",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "redis-40",
+      "review_round": 2,
+      "scheduled_date": "2026-04-06",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "redis-40",
+      "review_round": 3,
+      "scheduled_date": "2026-04-08",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "redis-40",
+      "review_round": 4,
+      "scheduled_date": "2026-04-11",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "redis-40",
+      "review_round": 5,
+      "scheduled_date": "2026-04-19",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "redis-40",
+      "review_round": 6,
+      "scheduled_date": "2026-05-04",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_collections-15",
+      "review_round": 1,
+      "scheduled_date": "2026-04-05",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "java_collections-15",
+      "review_round": 2,
+      "scheduled_date": "2026-04-06",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "java_collections-15",
+      "review_round": 3,
+      "scheduled_date": "2026-04-08",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "java_collections-15",
+      "review_round": 4,
+      "scheduled_date": "2026-04-11",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "java_collections-15",
+      "review_round": 5,
+      "scheduled_date": "2026-04-19",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "java_collections-15",
+      "review_round": 6,
+      "scheduled_date": "2026-05-04",
+      "status": "pending",
+      "score_at_identification": 1
+    },
+    {
+      "question_id": "java_collections-26",
+      "review_round": 1,
+      "scheduled_date": "2026-04-05",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_collections-26",
+      "review_round": 2,
+      "scheduled_date": "2026-04-06",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_collections-26",
+      "review_round": 3,
+      "scheduled_date": "2026-04-08",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_collections-26",
+      "review_round": 4,
+      "scheduled_date": "2026-04-11",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_collections-26",
+      "review_round": 5,
+      "scheduled_date": "2026-04-19",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_collections-26",
+      "review_round": 6,
+      "scheduled_date": "2026-05-04",
+      "status": "pending",
+      "score_at_identification": 0
+    },
+    {
+      "question_id": "java_basics-40",
+      "review_round": 1,
+      "scheduled_date": "2026-04-05",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "java_basics-40",
+      "review_round": 2,
+      "scheduled_date": "2026-04-06",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "java_basics-40",
+      "review_round": 3,
+      "scheduled_date": "2026-04-08",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "java_basics-40",
+      "review_round": 4,
+      "scheduled_date": "2026-04-11",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "java_basics-40",
+      "review_round": 5,
+      "scheduled_date": "2026-04-19",
+      "status": "pending",
+      "score_at_identification": 2
+    },
+    {
+      "question_id": "java_basics-40",
+      "review_round": 6,
+      "scheduled_date": "2026-05-04",
+      "status": "pending",
+      "score_at_identification": 2
+    }
+  ],
   "completed_reviews": []
 }
