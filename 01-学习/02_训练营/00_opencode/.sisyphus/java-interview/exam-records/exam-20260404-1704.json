@@ -1,0 +1,162 @@
+{
+  "exam_id": "exam-20260404-1704",
+  "type": "baseline-round2",
+  "description": "第二轮摸底考试（全新题目，避开首轮已答题）",
+  "questions": [
+    {
+      "id": "redis-84",
+      "module": "redis",
+      "text": "什么是分布式锁？",
+      "section": "Redis 分布式锁"
+    },
+    {
+      "id": "redis-15",
+      "module": "redis",
+      "text": "List对象底层编码方式是什么?",
+      "section": "Redis数据对象"
+    },
+    {
+      "id": "redis-4",
+      "module": "redis",
+      "text": "Redis 常用的业务场景有哪些?",
+      "section": "认识Redis"
+    },
+    {
+      "id": "jvm-18",
+      "module": "jvm",
+      "text": "类的实例化顺序？",
+      "section": "类加载机制"
+    },
+    {
+      "id": "jvm-16",
+      "module": "jvm",
+      "text": "什么是类加载器，类加载器有哪些？",
+      "section": "类加载机制"
+    },
+    {
+      "id": "jvm-15",
+      "module": "jvm",
+      "text": "如何打破双亲委派模型？哪些框架或者中间件造成了破坏？",
+      "section": "类加载机制"
+    },
+    {
+      "id": "concurrency-18",
+      "module": "concurrency",
+      "text": "线程的 sleep() 方法和 yield() 方法有什么区别?",
+      "section": "并发基础 (重要)"
+    },
+    {
+      "id": "concurrency-95",
+      "module": "concurrency",
+      "text": "ConcurrentHashMap 和 Hashtable 的区别?",
+      "section": "并发安全容器 / 并发工具类 (重要)"
+    },
+    {
+      "id": "concurrency-14",
+      "module": "concurrency",
+      "text": "什么是 Callable 和 Future? 什么是 FutureTask?",
+      "section": "并发基础 (重要)"
+    },
+    {
+      "id": "concurrency_coding-11",
+      "module": "concurrency_coding",
+      "text": "有一批任务 Tasks，现在我需要实现按批次执行，并且批次可以动态指定，例如 [1,3,5,7] 第一批执行，[11,13,15,17] 第二批执行，...，最后没有指定的任务就最后一起执行掉。批次之间需要按顺序，前一批执行完了才执行下一批",
+      "section": "多线程实战与手撕代码"
+    },
+    {
+      "id": "concurrency_coding-12",
+      "module": "concurrency_coding",
+      "text": "手撕：生产者-消费者模式（考虑线程安全）",
+      "section": "多线程实战与手撕代码"
+    },
+    {
+      "id": "concurrency_coding-9",
+      "module": "concurrency_coding",
+      "text": "假设有 T1、T2、T3 三个线程，你怎样保证 T2 在 T1 执行完后执行，T3 在 T2 执行完后执行？",
+      "section": "多线程实战与手撕代码"
+    },
+    {
+      "id": "mysql-12",
+      "module": "mysql",
+      "text": "MySQL 存储引擎有哪些?",
+      "section": "存储引擎"
+    },
+    {
+      "id": "mysql-76",
+      "module": "mysql",
+      "text": "redo log 是怎么实现持久化的？",
+      "section": "日志"
+    },
+    {
+      "id": "mysql-55",
+      "module": "mysql",
+      "text": "where a > 1 and b = 2 and c < 3 怎么建立索引？",
+      "section": "索引应用（重要）"
+    },
+    {
+      "id": "java_collections-3",
+      "module": "java_collections",
+      "text": "哪些集合类是线程安全的?",
+      "section": "集合概述 (重要)"
+    },
+    {
+      "id": "java_collections-2",
+      "module": "java_collections",
+      "text": "你最常用的集合实现类有哪些?",
+      "section": "集合概述 (重要)"
+    },
+    {
+      "id": "java_basics-12",
+      "module": "java_basics",
+      "text": "移位运算符",
+      "section": "基本语法"
+    },
+    {
+      "id": "java_basics-28",
+      "module": "java_basics",
+      "text": "Integer 和 int 有什么区别?",
+      "section": "基本数据类型"
+    },
+    {
+      "id": "spring_cloud-30",
+      "module": "spring_cloud",
+      "text": "为什么需要负载均衡?",
+      "section": "负载均衡"
+    },
+    {
+      "id": "spring_cloud-65",
+      "module": "spring_cloud",
+      "text": "Spring Cloud Gateway 工作流程?",
+      "section": "服务网关"
+    },
+    {
+      "id": "ssm-7",
+      "module": "ssm",
+      "text": "谈谈你对 IOC 的理解?",
+      "section": "Spring IOC"
+    },
+    {
+      "id": "ssm-51",
+      "module": "ssm",
+      "text": "Spring 事务实现方式有哪些?",
+      "section": "Spring 事务"
+    },
+    {
+      "id": "distributed-35",
+      "module": "distributed",
+      "text": "什么是令牌桶限流算法？",
+      "section": "6. 分布式场景"
+    },
+    {
+      "id": "distributed-27",
+      "module": "distributed",
+      "text": "RPC 调用流程是什么？",
+      "section": "5. 分布式组件"
+    }
+  ],
+  "answers": [],
+  "skipped_questions": [],
+  "exam_summary": {},
+  "started": "2026-04-04 17:04:48",
+  "finished": null
+}
