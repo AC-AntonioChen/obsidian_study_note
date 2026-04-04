@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "题库 1",
+      "path": "01-学习/02_训练营/00_opencode/Redis/题库 1.md"
+    },
+    {
+      "basename": "题库",
+      "path": "01-学习/02_训练营/01_redis专项/题库.md"
+    },
+    {
+      "basename": "Redis_对象",
+      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
+    },
+    {
       "basename": "分布式题单",
       "path": "01-学习/02_训练营/03_分布式/分布式题单.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "Redis的单线程和多线程执行过程",
       "path": "01-学习/02_训练营/01_redis专项/Redis的单线程和多线程执行过程.md"
-    },
-    {
-      "basename": "Redis_对象",
-      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
     },
     {
       "basename": "题目",
