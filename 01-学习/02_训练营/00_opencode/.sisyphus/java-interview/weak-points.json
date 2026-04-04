@@ -1,0 +1,11 @@
+﻿{
+  "version": "1.0.0",
+  "description": "薄弱知识点追踪 - 持续积累答错/答不好的知识点",
+  "weak_points": [],
+  "review_queue": [],
+  "statistics": {
+    "total_weak_points_identified": 0,
+    "total_weak_points_resolved": 0,
+    "resolution_rate": 0
+  }
+}

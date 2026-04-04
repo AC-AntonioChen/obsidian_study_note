@@ -1,0 +1,142 @@
+﻿{
+  "version": "1.0.0",
+  "created": "2026-04-04",
+  "candidate": {
+    "experience_years": 3,
+    "target_level": "Java中高级工程师",
+    "last_exam_date": null,
+    "total_exams_taken": 0
+  },
+  "modules": {
+    "redis": {
+      "name": "Redis",
+      "source_file": "Redis/题库 1.md",
+      "total_questions": 125,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "java_collections": {
+      "name": "Java集合",
+      "source_file": "Java/Java集合.md",
+      "total_questions": 52,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "java_basics": {
+      "name": "Java基础",
+      "source_file": "Java/Java基础.md",
+      "total_questions": 82,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "spring_cloud": {
+      "name": "SpringCloud",
+      "source_file": "Java/SpringCloud.md",
+      "total_questions": 81,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "ssm": {
+      "name": "SSM (Spring+MyBatis+SpringBoot)",
+      "source_file": "Java/SSM.md",
+      "total_questions": 135,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "jvm": {
+      "name": "JVM",
+      "source_file": "Java/JVM.md",
+      "total_questions": 43,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "concurrency": {
+      "name": "Java并发编程",
+      "source_file": "Java/Java并发编程.md",
+      "total_questions": 110,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "concurrency_coding": {
+      "name": "多线程编程题",
+      "source_file": "Java/多线程编程题.md",
+      "total_questions": 13,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "distributed": {
+      "name": "分布式",
+      "source_file": "分布式/分布式题单.md",
+      "total_questions": 35,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    },
+    "mysql": {
+      "name": "MySQL",
+      "source_file": "MySql/MYSQL题库.md",
+      "total_questions": 95,
+      "answered": 0,
+      "correct": 0,
+      "avg_score": 0,
+      "mastery_level": "untested",
+      "last_reviewed": null,
+      "weak_topics": []
+    }
+  },
+  "overall": {
+    "total_questions": 771,
+    "total_answered": 0,
+    "overall_avg_score": 0,
+    "readiness_level": "未评估",
+    "readiness_percentage": 0
+  },
+  "scoring_standard": {
+    "0": "完全不会/概念错误",
+    "1": "知道名词，说不清原理",
+    "2": "能说基本流程，有遗漏",
+    "3": "回答完整，但缺乏深度",
+    "4": "回答完整+有实战经验/源码理解",
+    "5": "能举一反三，讲清底层原理+边界场景"
+  },
+  "pass_criteria": {
+    "core_modules": ["concurrency", "jvm", "mysql", "redis"],
+    "core_avg_required": 3.5,
+    "other_avg_required": 3.0
+  }
+}

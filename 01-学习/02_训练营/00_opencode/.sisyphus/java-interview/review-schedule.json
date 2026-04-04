@@ -1,0 +1,7 @@
+﻿{
+  "version": "1.0.0",
+  "description": "艾宾浩斯复习计划 - 基于遗忘曲线的复习调度",
+  "review_intervals_days": [1, 2, 4, 7, 15, 30],
+  "scheduled_reviews": [],
+  "completed_reviews": []
+}

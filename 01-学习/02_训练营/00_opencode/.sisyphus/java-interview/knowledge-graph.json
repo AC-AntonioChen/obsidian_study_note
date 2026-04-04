@@ -1,0 +1,398 @@
+﻿{
+  "version": "1.0.0",
+  "description": "知识点掌握图谱 - 记录每个知识点的掌握程度和关联关系",
+  "knowledge_areas": {
+    "redis": {
+      "data_structures": {
+        "name": "Redis数据结构",
+        "topics": ["SDS", "ZIPLIST", "LINKEDLIST", "HashTable", "跳表", "INTSET"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "persistence": {
+        "name": "Redis持久化",
+        "topics": ["RDB", "AOF", "AOF重写", "混合持久化", "过期键处理"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "memory_management": {
+        "name": "内存管理",
+        "topics": ["过期删除策略", "内存淘汰策略", "LRU", "LFU"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "high_availability": {
+        "name": "高可用架构",
+        "topics": ["主从复制", "哨兵模式", "Cluster集群", "哈希槽"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["persistence"],
+        "last_tested": null
+      },
+      "distributed_lock": {
+        "name": "分布式锁",
+        "topics": ["Redisson", "看门狗", "RedLock", "Lua脚本", "可重入锁"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "cache_patterns": {
+        "name": "缓存模式",
+        "topics": ["缓存穿透", "缓存击穿", "缓存雪崩", "布隆过滤器", "缓存一致性"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "advanced_scenarios": {
+        "name": "高级场景",
+        "topics": ["热key", "大key", "管道", "延迟队列", "秒杀"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["data_structures", "distributed_lock"],
+        "last_tested": null
+      }
+    },
+    "java_collections": {
+      "list": {
+        "name": "List体系",
+        "topics": ["ArrayList", "LinkedList", "Vector", "扩容机制"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "map": {
+        "name": "Map体系",
+        "topics": ["HashMap", "LinkedHashMap", "TreeMap", "HashTable", "红黑树"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "set": {
+        "name": "Set体系",
+        "topics": ["HashSet", "LinkedHashSet", "TreeSet"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["map"],
+        "last_tested": null
+      },
+      "concurrent_collections": {
+        "name": "线程安全集合",
+        "topics": ["CopyOnWriteArrayList", "ConcurrentHashMap", "BlockingQueue"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["map"],
+        "last_tested": null
+      }
+    },
+    "java_basics": {
+      "oop": {
+        "name": "面向对象",
+        "topics": ["封装", "继承", "多态", "抽象类", "接口"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "string": {
+        "name": "String体系",
+        "topics": ["String", "StringBuilder", "StringBuffer", "字符串常量池"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "exception": {
+        "name": "异常体系",
+        "topics": ["Checked Exception", "RuntimeException", "Error", "try-catch-finally"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "reflection": {
+        "name": "反射与泛型",
+        "topics": ["反射", "泛型", "动态代理", "注解", "SPI"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "io": {
+        "name": "I/O模型",
+        "topics": ["BIO", "NIO", "AIO", "序列化"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      }
+    },
+    "jvm": {
+      "memory_structure": {
+        "name": "内存结构",
+        "topics": ["堆", "栈", "方法区", "程序计数器", "本地方法栈"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "gc": {
+        "name": "垃圾回收",
+        "topics": ["GC Roots", "可达性分析", "GC算法", "GC回收器", "G1"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["memory_structure"],
+        "last_tested": null
+      },
+      "class_loading": {
+        "name": "类加载机制",
+        "topics": ["双亲委派", "类加载器", "类加载过程"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "tuning": {
+        "name": "JVM调优",
+        "topics": ["Full GC排查", "OOM排查", "JVM参数", "调优工具"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["memory_structure", "gc"],
+        "last_tested": null
+      }
+    },
+    "concurrency": {
+      "basics": {
+        "name": "并发基础",
+        "topics": ["线程状态", "线程创建", "上下文切换", "死锁"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "jmm": {
+        "name": "Java内存模型",
+        "topics": ["可见性", "原子性", "有序性", "Happens-Before"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "synchronized_volatile": {
+        "name": "synchronized与volatile",
+        "topics": ["synchronized原理", "锁升级", "volatile", "CAS"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["jmm"],
+        "last_tested": null
+      },
+      "locks": {
+        "name": "Lock体系",
+        "topics": ["AQS", "ReentrantLock", "ReentrantReadWriteLock", "公平锁", "非公平锁"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["synchronized_volatile"],
+        "last_tested": null
+      },
+      "thread_pool": {
+        "name": "线程池",
+        "topics": ["ThreadPoolExecutor", "拒绝策略", "线程池调优", "动态修改"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["basics"],
+        "last_tested": null
+      },
+      "concurrent_tools": {
+        "name": "并发工具类",
+        "topics": ["CountDownLatch", "CyclicBarrier", "Semaphore", "ThreadLocal"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["basics"],
+        "last_tested": null
+      }
+    },
+    "mysql": {
+      "storage_engine": {
+        "name": "存储引擎",
+        "topics": ["InnoDB", "MyISAM", "执行流程"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "index": {
+        "name": "索引",
+        "topics": ["B+树", "聚簇索引", "覆盖索引", "最左匹配", "索引优化"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "transaction": {
+        "name": "事务",
+        "topics": ["ACID", "隔离级别", "MVCC", "锁机制"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "log": {
+        "name": "日志系统",
+        "topics": ["redo log", "binlog", "undo log", "两阶段提交"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["transaction"],
+        "last_tested": null
+      },
+      "tuning": {
+        "name": "性能调优",
+        "topics": ["慢SQL", "执行计划", "深分页优化", "索引失效"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["index", "transaction"],
+        "last_tested": null
+      },
+      "ha": {
+        "name": "高可用",
+        "topics": ["主从复制", "读写分离", "分库分表"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["transaction", "log"],
+        "last_tested": null
+      }
+    },
+    "spring_ecosystem": {
+      "ioc_aop": {
+        "name": "Spring核心",
+        "topics": ["IOC", "DI", "AOP", "Bean生命周期", "三级缓存", "循环依赖"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "transaction": {
+        "name": "Spring事务",
+        "topics": ["传播级别", "隔离级别", "声明式事务", "事务失效"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["mysql.transaction"],
+        "last_tested": null
+      },
+      "spring_boot": {
+        "name": "SpringBoot",
+        "topics": ["自动配置", "Starter", "Actuator", "多数据源"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["ioc_aop"],
+        "last_tested": null
+      },
+      "mybatis": {
+        "name": "MyBatis",
+        "topics": ["工作原理", "一级/二级缓存", "插件", "动态SQL"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      }
+    },
+    "microservices": {
+      "service_discovery": {
+        "name": "服务注册发现",
+        "topics": ["Eureka", "Nacos", "Consul", "Zookeeper"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "load_balance": {
+        "name": "负载均衡",
+        "topics": ["Ribbon", "负载均衡策略"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "remote_call": {
+        "name": "远程调用",
+        "topics": ["Feign", "OpenFeign", "Dubbo"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "circuit_breaker": {
+        "name": "服务容灾",
+        "topics": ["Hystrix", "Sentinel", "熔断", "降级", "限流"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "gateway": {
+        "name": "服务网关",
+        "topics": ["Gateway", "Zuul", "限流算法"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "distributed_transaction": {
+        "name": "分布式事务",
+        "topics": ["Seata", "2PC", "TCC", "Saga", "可靠消息"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["mysql.transaction"],
+        "last_tested": null
+      }
+    },
+    "distributed": {
+      "theory": {
+        "name": "分布式理论",
+        "topics": ["CAP", "BASE"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "consensus": {
+        "name": "一致性算法",
+        "topics": ["Raft", "Paxos", "ZAB"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": ["theory"],
+        "last_tested": null
+      },
+      "distributed_id": {
+        "name": "分布式ID",
+        "topics": ["雪花算法", "号段模式", "UUID"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      },
+      "rpc": {
+        "name": "RPC",
+        "topics": ["RPC原理", "RPC框架"],
+        "mastery": 0,
+        "related_questions": [],
+        "dependencies": [],
+        "last_tested": null
+      }
+    }
+  },
+  "cross_domain_dependencies": {
+    "redis.distributed_lock <-> distributed.distributed_lock": "同一概念不同实现",
+    "concurrency.concurrent_collections <-> java_collections.concurrent_collections": "同一知识点",
+    "mysql.ha <-> distributed.theory": "CAP理论在数据库层面的体现",
+    "spring_ecosystem.distributed_transaction <-> distributed.distributed_transaction": "同一概念"
+  }
+}
