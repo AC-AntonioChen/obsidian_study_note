@@ -55,6 +55,33 @@
       "identified_date": "2026-04-04 15:45:00",
       "resolved": false,
       "review_count": 0
+    },
+    {
+      "question_id": "redis-84",
+      "topic": "方向对但概念有误：竞态条件是问题而非锁本身。遗漏：本地锁为何不够、核心要求（互斥/不死锁/容错）、实",
+      "score": 2,
+      "feedback": "方向对但概念有误：竞态条件是问题而非锁本身。遗漏：本地锁为何不够、核心要求（互斥/不死锁/容错）、实现方案",
+      "identified_date": "2026-04-04 17:46:03",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "redis-15",
+      "topic": "答出quicklist但太浅。遗漏：历史演变(ziplist→quicklist→listpack)",
+      "score": 2,
+      "feedback": "答出quicklist但太浅。遗漏：历史演变(ziplist→quicklist→listpack)、quicklist=多个ziplist组成的双向链表、设计权衡",
+      "identified_date": "2026-04-04 17:46:03",
+      "resolved": false,
+      "review_count": 0
+    },
+    {
+      "question_id": "redis-4",
+      "topic": "只说出3个场景。3年经验应至少5-6个。遗漏：排行榜(ZSet)、计数器/限流、Session共享、",
+      "score": 2,
+      "feedback": "只说出3个场景。3年经验应至少5-6个。遗漏：排行榜(ZSet)、计数器/限流、Session共享、购物车(Hash)、社交关系(Set)、延时队列、布隆过滤器",
+      "identified_date": "2026-04-04 17:46:03",
+      "resolved": false,
+      "review_count": 0
     }
   ],
   "review_queue": [
@@ -63,10 +90,13 @@
     "redis-40",
     "java_collections-15",
     "java_collections-26",
-    "java_basics-40"
+    "java_basics-40",
+    "redis-84",
+    "redis-15",
+    "redis-4"
   ],
   "statistics": {
-    "total_weak_points_identified": 6,
+    "total_weak_points_identified": 9,
     "total_weak_points_resolved": 0,
     "resolution_rate": 0
   }

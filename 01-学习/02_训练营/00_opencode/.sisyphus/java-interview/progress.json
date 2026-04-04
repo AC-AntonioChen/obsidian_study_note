@@ -4,19 +4,19 @@
   "candidate": {
     "experience_years": 3,
     "target_level": "Java中高级工程师",
-    "last_exam_date": "2026-04-04 15:45:00",
-    "total_exams_taken": 1
+    "last_exam_date": "2026-04-04 17:46:03",
+    "total_exams_taken": 2
   },
   "modules": {
     "redis": {
       "name": "Redis",
       "source_file": "Redis/题库 1.md",
       "total_questions": 125,
-      "answered": 3,
+      "answered": 6,
       "correct": 0,
-      "avg_score": 1.0,
+      "avg_score": 1.5,
       "mastery_level": "weak",
-      "last_reviewed": "2026-04-04 15:45:00",
+      "last_reviewed": "2026-04-04 17:46:03",
       "weak_topics": []
     },
     "java_collections": {
@@ -27,7 +27,7 @@
       "correct": 0,
       "avg_score": 0.5,
       "mastery_level": "weak",
-      "last_reviewed": "2026-04-04 15:45:00",
+      "last_reviewed": "2026-04-04 17:46:03",
       "weak_topics": []
     },
     "java_basics": {
@@ -38,7 +38,7 @@
       "correct": 0,
       "avg_score": 2.0,
       "mastery_level": "needs_improvement",
-      "last_reviewed": "2026-04-04 15:45:00",
+      "last_reviewed": "2026-04-04 17:46:03",
       "weak_topics": []
     },
     "spring_cloud": {
@@ -121,10 +121,10 @@
   },
   "overall": {
     "total_questions": 771,
-    "total_answered": 6,
-    "overall_avg_score": 1.0,
+    "total_answered": 9,
+    "overall_avg_score": 1.33,
     "readiness_level": "严重不足",
-    "readiness_percentage": 20.0
+    "readiness_percentage": 26.7
   },
   "scoring_standard": {
     "0": "完全不会/概念错误",
