@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "分布式题单",
+      "path": "01-学习/02_训练营/03_分布式/分布式题单.md"
+    },
+    {
+      "basename": "全量题库",
+      "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
+    },
+    {
+      "basename": "Mysql库",
+      "path": "01-学习/02_训练营/Mysql库.md"
+    },
+    {
+      "basename": "redis库",
+      "path": "01-学习/02_训练营/redis库.md"
+    },
+    {
+      "basename": "场景应用",
+      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
+    },
+    {
+      "basename": "Redis对象数据结构解析",
+      "path": "01-学习/02_训练营/01_redis专项/Redis对象数据结构解析.md"
+    },
+    {
+      "basename": "Redis的单线程和多线程执行过程",
+      "path": "01-学习/02_训练营/01_redis专项/Redis的单线程和多线程执行过程.md"
+    },
+    {
+      "basename": "Redis_对象",
+      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
+    },
+    {
+      "basename": "题目",
+      "path": "01-学习/02_训练营/题目.md"
+    },
+    {
       "basename": "JVM",
       "path": "01-学习/02_训练营/04_Java/JVM.md"
     },
@@ -29,10 +65,6 @@
       "path": "01-学习/02_训练营/04_Java/多线程编程题.md"
     },
     {
-      "basename": "分布式题单",
-      "path": "01-学习/02_训练营/03_分布式/分布式题单.md"
-    },
-    {
       "basename": "面试学习导读",
       "path": "01-学习/面试学习导读.md"
     },
@@ -49,14 +81,6 @@
       "path": "01-学习/02_训练营/02_MySQL专项/全量题库解析.md"
     },
     {
-      "basename": "题目",
-      "path": "01-学习/02_训练营/题目.md"
-    },
-    {
-      "basename": "全量题库",
-      "path": "01-学习/02_训练营/02_MySQL专项/全量题库.md"
-    },
-    {
       "basename": "未命名 1",
       "path": "未命名 1.md"
     },
@@ -71,18 +95,6 @@
     {
       "basename": "MySQL 重点题库笔记",
       "path": "01-学习/02_训练营/02_MySQL专项/MySQL 重点题库笔记.md"
-    },
-    {
-      "basename": "Mysql库",
-      "path": "01-学习/02_训练营/Mysql库.md"
-    },
-    {
-      "basename": "场景应用",
-      "path": "01-学习/02_训练营/01_redis专项/场景应用.md"
-    },
-    {
-      "basename": "redis库",
-      "path": "01-学习/02_训练营/redis库.md"
     },
     {
       "basename": "英德计划",
@@ -109,20 +121,8 @@
       "path": "未命名 4.md"
     },
     {
-      "basename": "Redis_对象",
-      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
-    },
-    {
       "basename": "未命名 5",
       "path": "未命名 5.md"
-    },
-    {
-      "basename": "Redis的单线程和多线程执行过程",
-      "path": "01-学习/02_训练营/01_redis专项/Redis的单线程和多线程执行过程.md"
-    },
-    {
-      "basename": "Redis对象数据结构解析",
-      "path": "01-学习/02_训练营/01_redis专项/Redis对象数据结构解析.md"
     },
     {
       "basename": "01_MySQL",
@@ -191,14 +191,6 @@
     {
       "basename": "2024-06-02",
       "path": "2024-06-02.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
-      "basename": "元数据",
-      "path": "01-学习/01_Java笔记/01_JVM/元数据.md"
     }
   ],
   "omittedPaths": [],
