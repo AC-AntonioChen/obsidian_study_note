@@ -1,0 +1,38 @@
+{
+  "exam_id": "exam-redis-special-20260405",
+  "type": "redis-special",
+  "description": "Redis专项突破",
+  "questions": [],
+  "answers": [
+    {
+      "question_id": "redis-43",
+      "score": 3,
+      "feedback": "答出快照vs日志。遗漏：数据安全性对比、恢复速度、文件大小、性能影响"
+    },
+    {
+      "question_id": "redis-45",
+      "score": 3,
+      "feedback": "意思对但术语不准。标准术语：always/everysec(默认)/no"
+    },
+    {
+      "question_id": "redis-57",
+      "score": 1,
+      "feedback": "答的是AOF正常写入流程而非重写流程。重写是fork子进程生成精简AOF文件"
+    }
+  ],
+  "skipped_questions": [],
+  "exam_summary": {
+    "total_questions": 9,
+    "answered": 9,
+    "total_score": 7,
+    "max_score": 45,
+    "module_scores": {
+      "redis": {
+        "answered": 9,
+        "avg": 0.78
+      }
+    }
+  },
+  "started": "2026-04-05 02:20:13",
+  "finished": "2026-04-05 02:20:13"
+}

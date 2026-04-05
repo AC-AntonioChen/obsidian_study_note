@@ -17,7 +17,7 @@
       "score": 1,
       "feedback": "说反了。快因为：全内存无磁盘IO、单线程避免上下文切换和锁竞争、IO多路复用epoll。瓶颈在网络IO而非CPU",
       "identified_date": "2026-04-04 15:45:00",
-      "resolved": false,
+      "resolved": true,
       "review_count": 0
     },
     {
@@ -26,7 +26,7 @@
       "score": 0,
       "feedback": "Redis 6.0多线程只用于网络IO读写和协议解析，命令执行仍单线程。硬件升级后网络IO成新瓶颈",
       "identified_date": "2026-04-04 15:45:00",
-      "resolved": false,
+      "resolved": true,
       "review_count": 0
     },
     {
@@ -82,22 +82,30 @@
       "identified_date": "2026-04-04 17:46:03",
       "resolved": false,
       "review_count": 0
+    },
+    {
+      "question_id": "redis-57",
+      "topic": "答的是AOF正常写入流程而非重写流程。重写是fork子进程生成精简AOF文件",
+      "score": 1,
+      "feedback": "答的是AOF正常写入流程而非重写流程。重写是fork子进程生成精简AOF文件",
+      "identified_date": "2026-04-05 02:20:13",
+      "resolved": false,
+      "review_count": 0
     }
   ],
   "review_queue": [
     "redis-101",
-    "redis-39",
-    "redis-40",
     "java_collections-15",
     "java_collections-26",
     "java_basics-40",
     "redis-84",
     "redis-15",
-    "redis-4"
+    "redis-4",
+    "redis-57"
   ],
   "statistics": {
     "total_weak_points_identified": 9,
-    "total_weak_points_resolved": 0,
+    "total_weak_points_resolved": 2,
     "resolution_rate": 0
   }
 }
