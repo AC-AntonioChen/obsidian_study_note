@@ -64,9 +64,21 @@
               "icon": "lucide-file",
               "title": "Java基础"
             }
+          },
+          {
+            "id": "6cb3974504d1620e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -257,7 +269,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd5964363974f3dd",
+  "active": "6cb3974504d1620e",
   "lastOpenFiles": [
     "01-学习/02_训练营/00_opencode/Redis/题库 1.md",
     "01-学习/02_训练营/00_opencode/Redis",
