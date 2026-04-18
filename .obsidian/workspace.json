@@ -73,7 +73,7 @@
               "state": {
                 "file": "01-学习/02_训练营/04_Java/笔记.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "笔记"
