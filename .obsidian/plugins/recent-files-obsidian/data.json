@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "笔记",
+      "path": "01-学习/02_训练营/04_Java/笔记.md"
+    },
+    {
       "basename": "Java基础",
       "path": "01-学习/02_训练营/00_opencode/Java/Java基础.md"
     },
@@ -50,31 +54,31 @@
     },
     {
       "basename": "JVM",
-      "path": "01-学习/02_训练营/04_Java/JVM.md"
+      "path": "01-学习/02_训练营/04_Java/题单/JVM.md"
     },
     {
       "basename": "Java并发编程",
-      "path": "01-学习/02_训练营/04_Java/Java并发编程.md"
+      "path": "01-学习/02_训练营/04_Java/题单/Java并发编程.md"
     },
     {
       "basename": "Java集合",
-      "path": "01-学习/02_训练营/04_Java/Java集合.md"
+      "path": "01-学习/02_训练营/04_Java/题单/Java集合.md"
     },
     {
       "basename": "Java基础",
-      "path": "01-学习/02_训练营/04_Java/Java基础.md"
+      "path": "01-学习/02_训练营/04_Java/题单/Java基础.md"
     },
     {
       "basename": "SpringCloud",
-      "path": "01-学习/02_训练营/04_Java/SpringCloud.md"
+      "path": "01-学习/02_训练营/04_Java/题单/SpringCloud.md"
     },
     {
       "basename": "SSM",
-      "path": "01-学习/02_训练营/04_Java/SSM.md"
+      "path": "01-学习/02_训练营/04_Java/题单/SSM.md"
     },
     {
       "basename": "多线程编程题",
-      "path": "01-学习/02_训练营/04_Java/多线程编程题.md"
+      "path": "01-学习/02_训练营/04_Java/题单/多线程编程题.md"
     },
     {
       "basename": "面试学习导读",
@@ -195,10 +199,6 @@
     {
       "basename": "小兴安岭(2)",
       "path": "小兴安岭(2).md"
-    },
-    {
-      "basename": "面试题草稿",
-      "path": "00-代办/面试题草稿.md"
     }
   ],
   "omittedPaths": [],

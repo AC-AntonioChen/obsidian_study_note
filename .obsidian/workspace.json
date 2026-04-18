@@ -69,12 +69,14 @@
             "id": "6cb3974504d1620e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "01-学习/02_训练营/04_Java/笔记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
+              "icon": "lucide-file",
+              "title": "笔记"
             }
           }
         ],
@@ -271,6 +273,8 @@
   },
   "active": "6cb3974504d1620e",
   "lastOpenFiles": [
+    "01-学习/02_训练营/04_Java/笔记.md",
+    "01-学习/02_训练营/04_Java/题单",
     "01-学习/02_训练营/00_opencode/Redis/题库 1.md",
     "01-学习/02_训练营/00_opencode/Redis",
     "01-学习/02_训练营/01_redis专项/题库.md",
@@ -305,7 +309,6 @@
     "01-学习/02_训练营/00_opencode",
     "01-学习/03_",
     "01-学习/02_训练营/04_Java",
-    "01-学习/02_训练营/03_分布式",
     "09-其他/附件存储/Camera_1040g3k831lrsfkl0l87g5nfjk6cg8frjjvruu5g.jpg",
     "09-其他/附件存储/Pasted Image 20240719005852_909.jpg",
     "09-其他/附件存储/Pasted Image 20240929234111_707.png",
