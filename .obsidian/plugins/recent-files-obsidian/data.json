@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "回答",
+      "path": "01-学习/02_训练营/04_Java/回答.md"
+    },
+    {
       "basename": "笔记",
       "path": "01-学习/02_训练营/04_Java/笔记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "android",
       "path": "android.md"
-    },
-    {
-      "basename": "小兴安岭(2)",
-      "path": "小兴安岭(2).md"
     }
   ],
   "omittedPaths": [],
