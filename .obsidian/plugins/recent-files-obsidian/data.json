@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Java集合",
+      "path": "01-学习/02_训练营/00_opencode/Java/Java集合.md"
+    },
+    {
+      "basename": "Java基础",
+      "path": "01-学习/02_训练营/00_opencode/Java/Java基础.md"
+    },
+    {
+      "basename": "多线程编程题",
+      "path": "01-学习/02_训练营/00_opencode/Java/多线程编程题.md"
+    },
+    {
+      "basename": "Java并发编程",
+      "path": "01-学习/02_训练营/00_opencode/Java/Java并发编程.md"
+    },
+    {
       "basename": "回答",
       "path": "01-学习/02_训练营/04_Java/回答.md"
     },
     {
       "basename": "笔记",
       "path": "01-学习/02_训练营/04_Java/笔记.md"
-    },
-    {
-      "basename": "Java基础",
-      "path": "01-学习/02_训练营/00_opencode/Java/Java基础.md"
     },
     {
       "basename": "题库 1",
@@ -187,18 +199,6 @@
     {
       "basename": "MySQL",
       "path": "00-代办/技术面试题250418/MySQL.md"
-    },
-    {
-      "basename": "协同写作 - 维基百科，自由的百科全书",
-      "path": "Clippings/协同写作 - 维基百科，自由的百科全书.md"
-    },
-    {
-      "basename": "()",
-      "path": "().md"
-    },
-    {
-      "basename": "android",
-      "path": "android.md"
     }
   ],
   "omittedPaths": [],
