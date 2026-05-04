@@ -8,7 +8,8 @@ collection set list queue；Map
 3. 哪些集合类是线程安全的?
     线程安全的集合类有vector。Hash table。这些都是比较老的实现了，还有ConCurrenthashmap
 4. 什么是 fail-fast，什么是 fail-safe?
-    
+ 呃，fail fast就是快速失败机制，呃，就跟他的名字一样，当我们的这种设计理念就是当我们呃在每次操作的时候检测到如果不符合条件的话就立刻失败啊，啊，比如说我们的列表，当我们在调用当我们在这一个循环里面去呃移除列表元素的时候，就会触发这个非fast机制。呃，抛出这一个modified perception。使用这种机制的集合有这个array list。跟他是呃另外一种就是非的就是安全失败机制，呃，在这种机制下就是我们的操作。呃，是在副本上进行的，这样的话就在操作过程中就不会失败。
+ 
 5. 快速失败（fail-fast）机制底层是怎么实现的呢?
     
 6. Collection 和 Collections 有什么区别?
