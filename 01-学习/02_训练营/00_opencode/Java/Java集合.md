@@ -26,7 +26,7 @@ collection set list queue；Map
 ## List (重要)
 
 11. 讲一下 Java 里面 List 的几种实现?
-嗯，JAVA里面的list分为这个array list，linkedlist。
+嗯，JAVA里面的list分为这个array list，linkedlist。array list底层是基于Object数组实现的，Linkedlist则是基于双向链表实现的。
 12. ArrayList 和 Array（数组）的区别?
     
 13. ArrayList 和 Vector 的区别是什么？
