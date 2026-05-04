@@ -132,16 +132,6 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "274e549195d00475",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
@@ -270,6 +260,41 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
+  },
+  "floating": {
+    "id": "df5bb740796f3c84",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a092b86d69e36b5a",
+        "type": "window",
+        "children": [
+          {
+            "id": "93dfd6398a43a374",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "274e549195d00475",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 874,
+        "y": 132,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
   },
   "active": "6cb3974504d1620e",
   "lastOpenFiles": [
