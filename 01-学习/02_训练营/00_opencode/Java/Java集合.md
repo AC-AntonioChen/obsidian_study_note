@@ -6,7 +6,7 @@ collection set list queue；Map
 2. 你最常用的集合实现类有哪些?
     呃，常用的几个类，首先这一个set下面有这个哈希set。然后list的话有这个array list跟Linked list，然后queue队列的话下面有这个优先队列map的话有这个treemap。就是基于这个红黑素的，还有这个hashmap。
 3. 哪些集合类是线程安全的?
-    
+    线程安全的集合类有vector。Hash table。这些都是比较老的实现了，还有ConCurrenthashmap
 4. 什么是 fail-fast，什么是 fail-safe?
     
 5. 快速失败（fail-fast）机制底层是怎么实现的呢?
