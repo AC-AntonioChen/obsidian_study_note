@@ -34,7 +34,7 @@ collection set list queue；Map
 14. ArrayList 与 LinkedList 区别?
     ArrayList跟LinkedList的区别主要在于array list，它的底层是基于这个object的数组来实现的，而linked list它是基于双向双向列表来实现的。那么呃array list的话，它的这一个比较适合用来呃查询啊，查询比较多的这场景，而link list它更适合呃元素经常有这个插入。都有变动的这个删除的这个场景。
 15. ArrayList 和 LinkedList 的应用场景？
-    
+		Array list适用于查询多的情况。呃，link list它更适用于元素插入删除比较多的情况。
 16. 说一说 ArrayList 扩容机制
     
 17. 如何实现数组和 List 之间的转换？
