@@ -30,9 +30,9 @@ collection set list queue；Map
 12. ArrayList 和 Array（数组）的区别?
     
 13. ArrayList 和 Vector 的区别是什么？
-    ArrayList 跟ector他们都是实现了collection这个接口，呃，区别在于ArrayList 它是这个线程不安全的，呃，ector通过呃在关键方法上加synchronized注解，使得其操作线程安全。那么从效率上来说，list它的这一个整体的插入啊，查询啊，效率是要比这个to高的。
+    ArrayList 跟ector他们都是实现了collection这个接口，呃，区别在于ArrayList 它是这个线程不安全的，呃，ector通过呃在关键方法上加synchronized注解，使得其操作线程安全。那么从效率上来说，ArrayList 它的这一个整体的插入啊，查询啊，效率是要比这个 Vector 高的。
 14. ArrayList 与 LinkedList 区别?
-    
+    ArrayList跟LinkedList的区别主要在于array list，它的底层是基于这个object的数组来实现的，而linked list它是基于双向双向列表来实现的。那么呃array list的话，它的这一个比较适合用来呃查询啊，查询比较多的这场景，而link list它更适合呃元素经常有这个插入。都有变动的这个删除的这个场景。
 15. ArrayList 和 LinkedList 的应用场景？
     
 16. 说一说 ArrayList 扩容机制
