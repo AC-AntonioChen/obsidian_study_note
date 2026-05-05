@@ -36,7 +36,7 @@ collection set list queue；Map
 15. ArrayList 和 LinkedList 的应用场景？
 		Array list适用于查询多的情况。呃，link list它更适用于元素插入删除比较多的情况。
 16. 说一说 ArrayList 扩容机制
-    
+    List的扩容机制是我是在添加新元素的时候做一次是否需要扩容的检查，如果需要扩容的话，那么就呃会创建一个当前容量1.5倍的一个新数组，然后把我们的这个历史的给指向呃新的这一个数组实例。
 17. 如何实现数组和 List 之间的转换？
     
 18. ArrayList 线程安全吗？把 ArrayList 变成线程安全有哪些方法？
