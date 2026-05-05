@@ -40,7 +40,7 @@ collection set list queue；Map
 17. 如何实现数组和 List 之间的转换？
     List可以用这个。To array的方法转换成数组。而数组想要转换成list，可以通过arrays的这一个工具类来进行包装。
 18. ArrayList 线程安全吗？把 ArrayList 变成线程安全有哪些方法？
-    
+    ArrayList不是线程安全的。A list如果要变成线程安全的话，我们需要使用呃这个copy on write list。这个类来替代或者是使用Collection.synchronizedlist来包装原来的arraylistlist
 19. 为什么 ArrayList 的 elementData 加上 transient 修饰?
     
 
