@@ -47,9 +47,9 @@ collection set list queue；Map
 ## Set
 
 20. Set 集合有什么特点？如何实现 key 无重复的？
-    
+    呃，集合的特点是集合中的元素都是独一无二的，不会重复呃实现key。不重复的这个主要是在通过哈希表实现的，也就是在添加元素的时候，先检查这个元素的哈希值是否存在，如果存在的话，进一步检查内容是否相同。嗯
 21. Comparable 和 Comparator 的区别
-    
+    呃，compatible是接口，然后complete是一个呃具体的实现类具体来说comparable是用来呃类用来声明自己是可被被可比较的。而complete的话就是呃具体的去重写这一个比较符。
 22. 说下 HashSet 的实现原理?
     
 23. HashSet 如何检查重复? HashSet 是如何保证数据不可重复的？
