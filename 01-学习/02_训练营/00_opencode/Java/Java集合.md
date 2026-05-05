@@ -55,7 +55,7 @@ collection set list queue；Map
 23. HashSet 如何检查重复? HashSet 是如何保证数据不可重复的？
     HashSet检查重复的方式就是通过在呃添加元素的时候，呃，因为哈希set的底层是哈希map嘛，那么我们相当于是在调用哈希map的put的方法，嗯，在put的时候去计算这个哈希值是否有重复。如果哈希值重复了，我们再具体的去计算啊，这一个对象啊，这一个要插入的这一个值的这一个是否是equals已有的值
 24. 比较 HashSet、LinkedHashSet 和 TreeSet 三者的异同
-    
+    呃，哈希set它的底层是基于这个哈希map的。嗯，然后link hash set它的底层是基于这一个嗯，哈希map。+链表。然后TreeSet的话，它是基于这个红黑树做的。
 
 ## Queue
 
