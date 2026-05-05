@@ -42,7 +42,7 @@ collection set list queue；Map
 18. ArrayList 线程安全吗？把 ArrayList 变成线程安全有哪些方法？
     ArrayList不是线程安全的。A list如果要变成线程安全的话，我们需要使用呃这个copy on write list。这个类来替代或者是使用Collection.synchronizedlist来包装原来的arraylistlist
 19. 为什么 ArrayList 的 elementData 加上 transient 修饰?
-    
+    这个主要是为了让 ArrayList在被序列化的时候不会整个呃数组。都被序列都被序列化，而是通过这一个lease里面自己重写的这个right jet来进行序列化。
 
 ## Set
 
