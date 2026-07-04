@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "笔记",
+      "path": "01-学习/02_训练营/03_分布式/笔记.md"
+    },
+    {
       "basename": "Java集合",
       "path": "01-学习/02_训练营/00_opencode/Java/Java集合.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Redis",
       "path": "00-代办/技术面试题250418/Redis.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "00-代办/技术面试题250418/MySQL.md"
     }
   ],
   "omittedPaths": [],
