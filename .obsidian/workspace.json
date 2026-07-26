@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 4.md",
+                "file": "01-学习/02_训练营/04_Java/题单/SSM.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "未命名 4"
+              "title": "SSM"
             }
           }
         ],
@@ -263,6 +263,7 @@
   },
   "active": "6cb3974504d1620e",
   "lastOpenFiles": [
+    "未命名 4.md",
     "01-学习/02_训练营/03_分布式/笔记.md",
     "01-学习/02_训练营/00_opencode/Java/Java集合.md",
     "01-学习/02_训练营/00_opencode/Java/Java基础.md",
@@ -295,7 +296,6 @@
     "01-学习/02_训练营/00_opencode/多线程编程题.md",
     "01-学习/02_训练营/00_opencode/新建文件夹/多线程编程题.md",
     "01-学习/02_训练营/00_opencode/新建文件夹/SSM.md",
-    "01-学习/02_训练营/00_opencode/新建文件夹/SpringCloud.md",
     "01-学习/02_训练营/00_opencode",
     "01-学习/03_",
     "01-学习/02_训练营/04_Java",
