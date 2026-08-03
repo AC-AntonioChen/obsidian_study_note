@@ -5,12 +5,8 @@
       "path": "01-学习/02_训练营/04_Java/题单/SSM.md"
     },
     {
-      "basename": "未命名 4",
-      "path": "未命名 4.md"
-    },
-    {
-      "basename": "笔记",
-      "path": "01-学习/02_训练营/03_分布式/笔记.md"
+      "basename": "Java基础",
+      "path": "01-学习/02_训练营/04_Java/题单/Java基础.md"
     },
     {
       "basename": "Java集合",
@@ -93,10 +89,6 @@
       "path": "01-学习/02_训练营/04_Java/题单/Java集合.md"
     },
     {
-      "basename": "Java基础",
-      "path": "01-学习/02_训练营/04_Java/题单/Java基础.md"
-    },
-    {
       "basename": "SpringCloud",
       "path": "01-学习/02_训练营/04_Java/题单/SpringCloud.md"
     },
@@ -157,6 +149,10 @@
       "path": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md"
     },
     {
+      "basename": "未命名 4",
+      "path": "未命名 4.md"
+    },
+    {
       "basename": "未命名 5",
       "path": "未命名 5.md"
     },
@@ -199,6 +195,10 @@
     {
       "basename": "Redis",
       "path": "00-代办/技术面试题250418/Redis.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "00-代办/技术面试题250418/MySQL.md"
     }
   ],
   "omittedPaths": [],

@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-学习/02_训练营/04_Java/题单/SSM.md",
+                "file": "01-学习/02_训练营/00_opencode/Java/Java集合.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SSM"
+              "title": "Java集合"
             }
           }
         ],
@@ -263,9 +263,6 @@
   },
   "active": "6cb3974504d1620e",
   "lastOpenFiles": [
-    "未命名 4.md",
-    "01-学习/02_训练营/03_分布式/笔记.md",
-    "01-学习/02_训练营/00_opencode/Java/Java集合.md",
     "01-学习/02_训练营/00_opencode/Java/Java基础.md",
     "01-学习/02_训练营/00_opencode/Java/多线程编程题.md",
     "01-学习/02_训练营/00_opencode/Java/Java并发编程.md",
@@ -283,6 +280,7 @@
     "01-学习/02_训练营/00_opencode/Java/SSM.md",
     "01-学习/02_训练营/00_opencode/Java/SpringCloud.md",
     "01-学习/02_训练营/00_opencode/Java/JVM.md",
+    "01-学习/02_训练营/00_opencode/Java/Java集合.md",
     "01-学习/02_训练营/00_opencode/Java",
     "01-学习/02_训练营/00_opencode/MySql/MYSQL题库.md",
     "01-学习/02_训练营/00_opencode/MySql",
@@ -296,6 +294,8 @@
     "01-学习/02_训练营/00_opencode/多线程编程题.md",
     "01-学习/02_训练营/00_opencode/新建文件夹/多线程编程题.md",
     "01-学习/02_训练营/00_opencode/新建文件夹/SSM.md",
+    "01-学习/02_训练营/00_opencode/新建文件夹/SpringCloud.md",
+    "01-学习/02_训练营/00_opencode/新建文件夹/JVM.md",
     "01-学习/02_训练营/00_opencode",
     "01-学习/03_",
     "01-学习/02_训练营/04_Java",
