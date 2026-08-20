@@ -2,10 +2,10 @@
   "userAdmonitions": {
     "quote": {
       "type": "quote",
-      "color": "61, 169, 113",
+      "color": "rgb(61, 169, 113)",
       "icon": {
         "name": "quote-left",
-        "type": "font-awesome"
+        "type": "fas"
       },
       "command": false,
       "title": "引用",
@@ -16,23 +16,24 @@
   },
   "syntaxHighlight": false,
   "copyButton": true,
-  "version": "10.3.2",
+  "version": "12.0.5",
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,
   "dropShadow": true,
   "hideEmpty": false,
+  "icons": [
+    "fas"
+  ],
+  "rpgDownloadedOnce": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.e5dd46",
   "open": {
     "admonitions": true,
     "icons": true,
     "other": true,
     "advanced": false
   },
-  "icons": [],
-  "useFontAwesome": true,
-  "rpgDownloadedOnce": false,
-  "msDocConverted": false,
-  "useSnippet": false,
-  "snippetPath": "custom-admonitions.e5dd46"
+  "useFontAwesome": false
 }
