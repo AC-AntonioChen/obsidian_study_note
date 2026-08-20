@@ -78,9 +78,21 @@
               "icon": "lucide-file",
               "title": "Java集合"
             }
+          },
+          {
+            "id": "540172ebbf3b6523",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.4"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -261,7 +275,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6cb3974504d1620e",
+  "active": "540172ebbf3b6523",
   "lastOpenFiles": [
     "01-学习/02_训练营/00_opencode/Java/Java基础.md",
     "01-学习/02_训练营/00_opencode/Java/多线程编程题.md",
