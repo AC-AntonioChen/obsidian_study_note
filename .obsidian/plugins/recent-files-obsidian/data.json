@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "群bot开发计划",
+      "path": "05-工作区/群bot开发计划.md"
+    },
+    {
       "basename": "SSM",
       "path": "01-学习/02_训练营/04_Java/题单/SSM.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Redis",
       "path": "00-代办/技术面试题250418/Redis.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "00-代办/技术面试题250418/MySQL.md"
     }
   ],
   "omittedPaths": [],

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "⛑",
       "📆",
       "RiTodoLine",
       "🧑‍🏫",
-      "LiBike",
-      "🖊"
+      "LiBike"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,6 @@
   "04-旅游": "LiBike",
   "09-其他/教师资格证": "🧑‍🏫",
   "00-代办": "📆",
-  "01-学习": "🖊"
+  "01-学习": "🖊",
+  "05-工作区": "⛑"
 }
