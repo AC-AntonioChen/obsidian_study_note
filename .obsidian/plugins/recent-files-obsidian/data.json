@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "05-工作区/未命名.md"
+      "basename": "黄阳的投资方法论_精读小书",
+      "path": "05-工作区/黄阳的投资方法论_精读小书.md"
     },
     {
       "basename": "群bot开发计划",
       "path": "05-工作区/群bot开发计划.md"
+    },
+    {
+      "basename": "Redis_对象",
+      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "05-工作区/未命名.md"
     },
     {
       "basename": "SSM",
@@ -47,10 +55,6 @@
     {
       "basename": "题库",
       "path": "01-学习/02_训练营/01_redis专项/题库.md"
-    },
-    {
-      "basename": "Redis_对象",
-      "path": "01-学习/02_训练营/01_redis专项/Redis_对象.md"
     },
     {
       "basename": "分布式题单",
@@ -195,10 +199,6 @@
     {
       "basename": "Java集合",
       "path": "00-代办/技术面试题250418/Java集合.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "00-代办/技术面试题250418/JVM.md"
     }
   ],
   "omittedPaths": [],

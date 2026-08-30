@@ -4,109 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "00f4a9431b770dd4",
+        "id": "fa2f5e5a0ffa2440",
         "type": "tabs",
         "children": [
           {
-            "id": "f20c3209d31dfbaf",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-学习/02_训练营/01_redis专项/Redis_对象.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Redis_对象"
-            }
-          },
-          {
-            "id": "de6acb262228decf",
+            "id": "a409a9681ac6b38b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09-其他/教师资格证/301/背诵.md",
+                "file": "05-工作区/黄阳的投资方法论_精读小书.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "背诵"
-            }
-          },
-          {
-            "id": "8a4ee27a7b55ba6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-学习/02_训练营/02_MySQL专项/EXPLAIN 结果解析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EXPLAIN 结果解析"
-            }
-          },
-          {
-            "id": "bd5964363974f3dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-学习/02_训练营/00_opencode/Java/Java基础.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Java基础"
-            }
-          },
-          {
-            "id": "6cb3974504d1620e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-学习/02_训练营/00_opencode/Java/Java集合.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Java集合"
-            }
-          },
-          {
-            "id": "540172ebbf3b6523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-工作区/未命名.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "72ea39a206bb3b00",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.13.7"
+              "title": "黄阳的投资方法论_精读小书"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,9 +204,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "540172ebbf3b6523",
+  "active": "a409a9681ac6b38b",
   "lastOpenFiles": [
     "05-工作区/群bot开发计划.md",
+    "01-学习/02_训练营/01_redis专项/Redis_对象.md",
+    "05-工作区/黄阳的投资方法论_精读小书.md",
     "05-工作区/未命名.md",
     "未命名 3",
     "05-工作区",
@@ -304,7 +221,6 @@
     "01-学习/02_训练营/00_opencode/Redis/题库 1.md",
     "01-学习/02_训练营/00_opencode/Redis",
     "01-学习/02_训练营/01_redis专项/题库.md",
-    "01-学习/02_训练营/01_redis专项/Redis_对象.md",
     "01-学习/02_训练营/03_分布式/分布式题单.md",
     "01-学习/02_训练营/00_opencode/分布式/分布式题单.md",
     "01-学习/02_训练营/00_opencode/分布式",
@@ -325,7 +241,6 @@
     "01-学习/02_训练营/00_opencode/Java并发编程.md",
     "01-学习/02_训练营/00_opencode/多线程编程题.md",
     "01-学习/02_训练营/00_opencode/新建文件夹/多线程编程题.md",
-    "01-学习/02_训练营/00_opencode/新建文件夹/SSM.md",
     "01-学习/02_训练营/00_opencode",
     "09-其他/附件存储/Camera_1040g3k831lrsfkl0l87g5nfjk6cg8frjjvruu5g.jpg",
     "09-其他/附件存储/Pasted Image 20240719005852_909.jpg",
