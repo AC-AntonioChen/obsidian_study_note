@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-11-07-能力圈地图需求规格",
+      "path": "06_invest/_tools/specs/2026-11-07-能力圈地图需求规格.md"
+    },
+    {
       "basename": "未命名 7",
       "path": "未命名 7.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Spring&SpringBoot",
       "path": "00-代办/技术面试题250418/Spring&SpringBoot.md"
-    },
-    {
-      "basename": "Java基础",
-      "path": "00-代办/技术面试题250418/Java基础.md"
     }
   ],
   "omittedPaths": [],
