@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "未命名 7"
             }
+          },
+          {
+            "id": "15026d3acace7d7b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.14.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,7 +245,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "837b011bce52d2df",
+  "active": "15026d3acace7d7b",
   "lastOpenFiles": [
     "未命名 6.md",
     "未命名 7.md",
